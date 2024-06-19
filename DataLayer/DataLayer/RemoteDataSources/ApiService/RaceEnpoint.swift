@@ -21,7 +21,7 @@ enum RaceEndpoint: EndpointProtocol {
     var path: String {
         switch self {
         case .getNextRaces:
-            return "/rest/v1/racing"
+            return "/rest/v1/racing/"
         }
     }
     

@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243B09A82C22BD5F004CCE60 /* ApiServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243B09A72C22BD5F004CCE60 /* ApiServiceTests.swift */; };
+		243B09AA2C22BD8C004CCE60 /* EndpointMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243B09A92C22BD8C004CCE60 /* EndpointMock.swift */; };
 		2443C3822C22A40100DBFE5D /* DataLayer.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3812C22A40100DBFE5D /* DataLayer.docc */; };
 		2443C3882C22A40100DBFE5D /* DataLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C37D2C22A40100DBFE5D /* DataLayer.framework */; };
-		2443C38D2C22A40100DBFE5D /* DataLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C38C2C22A40100DBFE5D /* DataLayerTests.swift */; };
 		2443C38E2C22A40100DBFE5D /* DataLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2443C3802C22A40100DBFE5D /* DataLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2443C3C22C22A44800DBFE5D /* DomainLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C12C22A44800DBFE5D /* DomainLayer.framework */; };
 		2443C3C32C22A44800DBFE5D /* DomainLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C12C22A44800DBFE5D /* DomainLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -19,6 +20,7 @@
 		2443C3E52C22AE6800DBFE5D /* GetNextRacesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3E42C22AE6800DBFE5D /* GetNextRacesResponse.swift */; };
 		2443C3E92C22B24B00DBFE5D /* RaceRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3E82C22B24B00DBFE5D /* RaceRemoteDataSource.swift */; };
 		2443C3EB2C22B3C200DBFE5D /* RaceRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3EA2C22B3C200DBFE5D /* RaceRepo.swift */; };
+		2443C3EE2C22B90C00DBFE5D /* ApiServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3ED2C22B90C00DBFE5D /* ApiServiceMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +48,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		243B09A72C22BD5F004CCE60 /* ApiServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceTests.swift; sourceTree = "<group>"; };
+		243B09A92C22BD8C004CCE60 /* EndpointMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointMock.swift; sourceTree = "<group>"; };
 		2443C37D2C22A40100DBFE5D /* DataLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443C3802C22A40100DBFE5D /* DataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataLayer.h; sourceTree = "<group>"; };
 		2443C3812C22A40100DBFE5D /* DataLayer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DataLayer.docc; sourceTree = "<group>"; };
 		2443C3872C22A40100DBFE5D /* DataLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2443C38C2C22A40100DBFE5D /* DataLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLayerTests.swift; sourceTree = "<group>"; };
 		2443C3C12C22A44800DBFE5D /* DomainLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DomainLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443C3DD2C22AC5400DBFE5D /* EndpointProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointProtocol.swift; sourceTree = "<group>"; };
 		2443C3DF2C22AC6600DBFE5D /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		2443C3E42C22AE6800DBFE5D /* GetNextRacesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNextRacesResponse.swift; sourceTree = "<group>"; };
 		2443C3E82C22B24B00DBFE5D /* RaceRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceRemoteDataSource.swift; sourceTree = "<group>"; };
 		2443C3EA2C22B3C200DBFE5D /* RaceRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceRepo.swift; sourceTree = "<group>"; };
+		2443C3ED2C22B90C00DBFE5D /* ApiServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		243B09A52C22BD1D004CCE60 /* RemoteDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				243B09A62C22BD31004CCE60 /* ApiService */,
+			);
+			path = RemoteDataSources;
+			sourceTree = "<group>";
+		};
+		243B09A62C22BD31004CCE60 /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				243B09A72C22BD5F004CCE60 /* ApiServiceTests.swift */,
+				243B09A92C22BD8C004CCE60 /* EndpointMock.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
 		2443C3732C22A40100DBFE5D = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +135,8 @@
 		2443C38B2C22A40100DBFE5D /* DataLayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				2443C38C2C22A40100DBFE5D /* DataLayerTests.swift */,
+				243B09A52C22BD1D004CCE60 /* RemoteDataSources */,
+				2443C3EC2C22B8F900DBFE5D /* Mocks */,
 			);
 			path = DataLayerTests;
 			sourceTree = "<group>";
@@ -160,6 +182,14 @@
 				2443C3EA2C22B3C200DBFE5D /* RaceRepo.swift */,
 			);
 			path = Repos;
+			sourceTree = "<group>";
+		};
+		2443C3EC2C22B8F900DBFE5D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2443C3ED2C22B90C00DBFE5D /* ApiServiceMock.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +258,7 @@
 					};
 					2443C3862C22A40100DBFE5D = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -286,7 +317,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2443C38D2C22A40100DBFE5D /* DataLayerTests.swift in Sources */,
+				243B09A82C22BD5F004CCE60 /* ApiServiceTests.swift in Sources */,
+				243B09AA2C22BD8C004CCE60 /* EndpointMock.swift in Sources */,
+				2443C3EE2C22B90C00DBFE5D /* ApiServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +539,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -517,6 +551,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -527,6 +562,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
