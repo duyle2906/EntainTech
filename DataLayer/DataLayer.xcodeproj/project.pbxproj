@@ -13,6 +13,9 @@
 		2443C38E2C22A40100DBFE5D /* DataLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2443C3802C22A40100DBFE5D /* DataLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2443C3C22C22A44800DBFE5D /* DomainLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C12C22A44800DBFE5D /* DomainLayer.framework */; };
 		2443C3C32C22A44800DBFE5D /* DomainLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C12C22A44800DBFE5D /* DomainLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2443C3DE2C22AC5400DBFE5D /* EndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3DD2C22AC5400DBFE5D /* EndpointProtocol.swift */; };
+		2443C3E02C22AC6600DBFE5D /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3DF2C22AC6600DBFE5D /* ApiService.swift */; };
+		2443C3E22C22AC8000DBFE5D /* RaceEnpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3E12C22AC8000DBFE5D /* RaceEnpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		2443C3872C22A40100DBFE5D /* DataLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443C38C2C22A40100DBFE5D /* DataLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLayerTests.swift; sourceTree = "<group>"; };
 		2443C3C12C22A44800DBFE5D /* DomainLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DomainLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2443C3DD2C22AC5400DBFE5D /* EndpointProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointProtocol.swift; sourceTree = "<group>"; };
+		2443C3DF2C22AC6600DBFE5D /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		2443C3E12C22AC8000DBFE5D /* RaceEnpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceEnpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 		2443C37F2C22A40100DBFE5D /* DataLayer */ = {
 			isa = PBXGroup;
 			children = (
+				2443C3DB2C22ABF400DBFE5D /* RemoteDataSources */,
 				2443C3802C22A40100DBFE5D /* DataLayer.h */,
 				2443C3812C22A40100DBFE5D /* DataLayer.docc */,
 			);
@@ -110,6 +117,24 @@
 				2443C3C12C22A44800DBFE5D /* DomainLayer.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2443C3DB2C22ABF400DBFE5D /* RemoteDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				2443C3DC2C22AC3100DBFE5D /* ApiService */,
+			);
+			path = RemoteDataSources;
+			sourceTree = "<group>";
+		};
+		2443C3DC2C22AC3100DBFE5D /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				2443C3DD2C22AC5400DBFE5D /* EndpointProtocol.swift */,
+				2443C3DF2C22AC6600DBFE5D /* ApiService.swift */,
+				2443C3E12C22AC8000DBFE5D /* RaceEnpoint.swift */,
+			);
+			path = ApiService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +247,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2443C3E22C22AC8000DBFE5D /* RaceEnpoint.swift in Sources */,
+				2443C3DE2C22AC5400DBFE5D /* EndpointProtocol.swift in Sources */,
 				2443C3822C22A40100DBFE5D /* DataLayer.docc in Sources */,
+				2443C3E02C22AC6600DBFE5D /* ApiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -469,6 +498,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
