@@ -5,6 +5,15 @@
       location = "group:EntainTech.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:PresentationLayer/PresentationLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DomainLayer/DomainLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DataLayer/DataLayer.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

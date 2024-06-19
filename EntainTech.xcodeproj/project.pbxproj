@@ -14,6 +14,12 @@
 		2443C2E62C229D6200DBFE5D /* EntainTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C2E52C229D6200DBFE5D /* EntainTechTests.swift */; };
 		2443C2F02C229D6200DBFE5D /* EntainTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C2EF2C229D6200DBFE5D /* EntainTechUITests.swift */; };
 		2443C2F22C229D6200DBFE5D /* EntainTechUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C2F12C229D6200DBFE5D /* EntainTechUITestsLaunchTests.swift */; };
+		2443C3C92C22A48500DBFE5D /* DataLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C62C22A48500DBFE5D /* DataLayer.framework */; };
+		2443C3CA2C22A48500DBFE5D /* DataLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C62C22A48500DBFE5D /* DataLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2443C3CB2C22A48500DBFE5D /* DomainLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C72C22A48500DBFE5D /* DomainLayer.framework */; };
+		2443C3CC2C22A48500DBFE5D /* DomainLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C72C22A48500DBFE5D /* DomainLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2443C3CD2C22A48500DBFE5D /* PresentationLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C82C22A48500DBFE5D /* PresentationLayer.framework */; };
+		2443C3CE2C22A48500DBFE5D /* PresentationLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C82C22A48500DBFE5D /* PresentationLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4AE5E08D5FD0795081A59028 /* Pods_EntainTechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA452F3EC1BA801C72A780E5 /* Pods_EntainTechTests.framework */; };
 		7284E736C4E9D50CAACCA472 /* Pods_EntainTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534D5DA7EFCBBEB63FACB154 /* Pods_EntainTech.framework */; };
 		CC3D12D58BEAEA95880F3321 /* Pods_EntainTech_EntainTechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C6AF8EA788AA546D94C04E /* Pods_EntainTech_EntainTechUITests.framework */; };
@@ -36,6 +42,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2443C3CF2C22A48500DBFE5D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2443C3CC2C22A48500DBFE5D /* DomainLayer.framework in Embed Frameworks */,
+				2443C3CA2C22A48500DBFE5D /* DataLayer.framework in Embed Frameworks */,
+				2443C3CE2C22A48500DBFE5D /* PresentationLayer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		00F88AE5BE5732E5EF853009 /* Pods-EntainTech-EntainTechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntainTech-EntainTechUITests.debug.xcconfig"; path = "Target Support Files/Pods-EntainTech-EntainTechUITests/Pods-EntainTech-EntainTechUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		17CC01CCDCB26A384E7CCBA3 /* Pods-EntainTechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntainTechTests.release.xcconfig"; path = "Target Support Files/Pods-EntainTechTests/Pods-EntainTechTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,6 +72,10 @@
 		2443C2EB2C229D6200DBFE5D /* EntainTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntainTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443C2EF2C229D6200DBFE5D /* EntainTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainTechUITests.swift; sourceTree = "<group>"; };
 		2443C2F12C229D6200DBFE5D /* EntainTechUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainTechUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2443C3C52C22A47300DBFE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2443C3C62C22A48500DBFE5D /* DataLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2443C3C72C22A48500DBFE5D /* DomainLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DomainLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2443C3C82C22A48500DBFE5D /* PresentationLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PresentationLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3D7629F83D691F27970D07 /* Pods-EntainTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntainTech.debug.xcconfig"; path = "Target Support Files/Pods-EntainTech/Pods-EntainTech.debug.xcconfig"; sourceTree = "<group>"; };
 		3A8F6DFE84EA004171704369 /* Pods-EntainTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntainTech.release.xcconfig"; path = "Target Support Files/Pods-EntainTech/Pods-EntainTech.release.xcconfig"; sourceTree = "<group>"; };
 		534D5DA7EFCBBEB63FACB154 /* Pods_EntainTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EntainTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2443C3CD2C22A48500DBFE5D /* PresentationLayer.framework in Frameworks */,
+				2443C3CB2C22A48500DBFE5D /* DomainLayer.framework in Frameworks */,
+				2443C3C92C22A48500DBFE5D /* DataLayer.framework in Frameworks */,
 				7284E736C4E9D50CAACCA472 /* Pods_EntainTech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,6 +141,7 @@
 		2443C2D22C229D5F00DBFE5D /* EntainTech */ = {
 			isa = PBXGroup;
 			children = (
+				2443C3C52C22A47300DBFE5D /* Info.plist */,
 				2443C2D32C229D5F00DBFE5D /* EntainTechApp.swift */,
 				2443C2D52C229D5F00DBFE5D /* ContentView.swift */,
 				2443C2D72C229D6100DBFE5D /* Assets.xcassets */,
@@ -149,6 +179,9 @@
 		64D6A384EC382FB60A308390 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2443C3C62C22A48500DBFE5D /* DataLayer.framework */,
+				2443C3C72C22A48500DBFE5D /* DomainLayer.framework */,
+				2443C3C82C22A48500DBFE5D /* PresentationLayer.framework */,
 				534D5DA7EFCBBEB63FACB154 /* Pods_EntainTech.framework */,
 				D8C6AF8EA788AA546D94C04E /* Pods_EntainTech_EntainTechUITests.framework */,
 				FA452F3EC1BA801C72A780E5 /* Pods_EntainTechTests.framework */,
@@ -166,7 +199,6 @@
 				F8EF1EF40AA408988E36DFEE /* Pods-EntainTechTests.debug.xcconfig */,
 				17CC01CCDCB26A384E7CCBA3 /* Pods-EntainTechTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -181,6 +213,7 @@
 				2443C2CC2C229D5F00DBFE5D /* Sources */,
 				2443C2CD2C229D5F00DBFE5D /* Frameworks */,
 				2443C2CE2C229D5F00DBFE5D /* Resources */,
+				2443C3CF2C22A48500DBFE5D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -536,6 +569,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EntainTech/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EntainTech/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -546,7 +580,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
@@ -573,6 +607,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EntainTech/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EntainTech/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -583,7 +618,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
