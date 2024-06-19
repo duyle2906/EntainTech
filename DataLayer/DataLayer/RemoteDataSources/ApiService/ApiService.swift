@@ -40,6 +40,7 @@ public final class ApiService: ApiServiceProtocol {
             do {
                 let decoder = JSONDecoder()
                 decoder.dateDecodingStrategy = .secondsSince1970
+//                decoder.keyDecodingStrategy = .convertFromSnakeCase
                 return try decoder.decode(T.self, from: data)
             } catch {
                 throw ApiError(errorCode: "Error-1001", message: "Error decoding data")
