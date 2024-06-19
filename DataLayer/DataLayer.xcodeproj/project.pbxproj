@@ -16,7 +16,7 @@
 		2443C3DE2C22AC5400DBFE5D /* EndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3DD2C22AC5400DBFE5D /* EndpointProtocol.swift */; };
 		2443C3E02C22AC6600DBFE5D /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3DF2C22AC6600DBFE5D /* ApiService.swift */; };
 		2443C3E22C22AC8000DBFE5D /* RaceEnpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3E12C22AC8000DBFE5D /* RaceEnpoint.swift */; };
-		2443C3E52C22AE6800DBFE5D /* GetNextRaceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3E42C22AE6800DBFE5D /* GetNextRaceResponse.swift */; };
+		2443C3E52C22AE6800DBFE5D /* GetNextRacesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3E42C22AE6800DBFE5D /* GetNextRacesResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,7 @@
 		2443C3DD2C22AC5400DBFE5D /* EndpointProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointProtocol.swift; sourceTree = "<group>"; };
 		2443C3DF2C22AC6600DBFE5D /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		2443C3E12C22AC8000DBFE5D /* RaceEnpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceEnpoint.swift; sourceTree = "<group>"; };
-		2443C3E42C22AE6800DBFE5D /* GetNextRaceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNextRaceResponse.swift; sourceTree = "<group>"; };
+		2443C3E42C22AE6800DBFE5D /* GetNextRacesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNextRacesResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 		2443C3E32C22AE3500DBFE5D /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
-				2443C3E42C22AE6800DBFE5D /* GetNextRaceResponse.swift */,
+				2443C3E42C22AE6800DBFE5D /* GetNextRacesResponse.swift */,
 			);
 			path = DataModels;
 			sourceTree = "<group>";
@@ -262,7 +262,7 @@
 				2443C3DE2C22AC5400DBFE5D /* EndpointProtocol.swift in Sources */,
 				2443C3822C22A40100DBFE5D /* DataLayer.docc in Sources */,
 				2443C3E02C22AC6600DBFE5D /* ApiService.swift in Sources */,
-				2443C3E52C22AE6800DBFE5D /* GetNextRaceResponse.swift in Sources */,
+				2443C3E52C22AE6800DBFE5D /* GetNextRacesResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

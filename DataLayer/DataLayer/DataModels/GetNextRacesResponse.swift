@@ -1,5 +1,5 @@
 //
-//  GetNextRaceResponse.swift
+//  GetNextRacesResponse.swift
 //  DataLayer
 //
 //  Created by Duy Le on 19/6/2024.
@@ -7,8 +7,8 @@
 
 import Foundation
 
-// MARK: - GetNextRaceResponse
-struct GetNextRaceResponse: Codable {
+// MARK: - GetNextRacesResponse
+struct GetNextRacesResponse: Codable {
     let status: Int
     let data: Data
     let message: String
