@@ -6,6 +6,7 @@ target 'EntainTech' do
   use_frameworks!
 
   # Pods for EntainTech
+  pod 'Swinject'
 
   target 'EntainTechTests' do
     inherit! :search_paths
