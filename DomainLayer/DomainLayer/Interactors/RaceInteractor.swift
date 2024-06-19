@@ -22,7 +22,16 @@ public class RaceInteractor: RaceInteractorProtocol {
     }
     
     public func getNextRaces(count: Int) async -> Result<[Race], ApiError> {
-        return await repo.getNextRaces(count: count)
+        do {
+            let races = try await repo.getNextRaces(count: count).get()
+            // sort races by the start time ascending
+            let sortedRaces = races.sorted { race1, race2 in
+                race1.startTimeInSeconds < race2.startTimeInSeconds
+            }
+            return .success(sortedRaces)
+        } catch let error {
+            return .failure(error as? ApiError ?? ApiError.unknownError())
+        }
     }
     
 }
