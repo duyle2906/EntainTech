@@ -15,7 +15,7 @@ public struct GetNextRacesResponse: Decodable {
     public let message: String
     
     // MARK: - Data
-    public struct Data: Codable {
+    public struct Data: Decodable {
         public let nextToGoIds: [String]
         public let raceSummaries: [String: RaceSummary]
 
@@ -26,14 +26,14 @@ public struct GetNextRacesResponse: Decodable {
     }
 
     // MARK: - RaceSummary
-    public struct RaceSummary: Codable {
+    public struct RaceSummary: Decodable {
         public let raceID, raceName: String
         public let raceNumber: Int
         public let meetingID, meetingName, categoryID: String
         public let advertisedStart: AdvertisedStart
-        public let raceForm: RaceForm
-        public let venueID, venueName, venueState: String
-        public let venueCountry: VenueCountry
+        public let raceForm: RaceForm?
+        public let venueID, venueName, venueState: String?
+        public let venueCountry: String?
 
         public enum CodingKeys: String, CodingKey {
             case raceID = "race_id"
@@ -52,23 +52,24 @@ public struct GetNextRacesResponse: Decodable {
     }
 
     // MARK: - AdvertisedStart
-    public struct AdvertisedStart: Codable {
+    public struct AdvertisedStart: Decodable {
         public let seconds: Int
     }
 
     // MARK: - RaceForm
-    public struct RaceForm: Codable {
+    public struct RaceForm: Decodable {
         public let distance: Int
-        public let distanceType: DistanceType
-        public let distanceTypeID: String
-        public let trackCondition: DistanceType
-        public let trackConditionID: String
+        public let distanceType: DistanceType?
+        public let distanceTypeID: String?
+        public let trackCondition: DistanceType?
+        public let trackConditionID: String?
         public let weather: DistanceType?
         public let weatherID: String?
-        public let raceComment, additionalData: String
+        public let raceComment: String?
+        public let additionalData: String?
         public let generated: Int
-        public let silkBaseURL: String
-        public let raceCommentAlternative: String
+        public let silkBaseURL: String?
+        public let raceCommentAlternative: String?
 
         public enum CodingKeys: String, CodingKey {
             case distance
@@ -96,11 +97,6 @@ public struct GetNextRacesResponse: Decodable {
             case shortName = "short_name"
             case iconURI = "icon_uri"
         }
-    }
-
-    public enum VenueCountry: String, Codable {
-        case aus = "AUS"
-        case jpn = "JPN"
     }
     
 }
