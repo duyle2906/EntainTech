@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2443C2D42C229D5F00DBFE5D /* EntainTechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C2D32C229D5F00DBFE5D /* EntainTechApp.swift */; };
-		2443C2D62C229D5F00DBFE5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C2D52C229D5F00DBFE5D /* ContentView.swift */; };
 		2443C2D82C229D6100DBFE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2443C2D72C229D6100DBFE5D /* Assets.xcassets */; };
 		2443C2DC2C229D6100DBFE5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2443C2DB2C229D6100DBFE5D /* Preview Assets.xcassets */; };
 		2443C2E62C229D6200DBFE5D /* EntainTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C2E52C229D6200DBFE5D /* EntainTechTests.swift */; };
@@ -20,6 +19,8 @@
 		2443C3CC2C22A48500DBFE5D /* DomainLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C72C22A48500DBFE5D /* DomainLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2443C3CD2C22A48500DBFE5D /* PresentationLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C82C22A48500DBFE5D /* PresentationLayer.framework */; };
 		2443C3CE2C22A48500DBFE5D /* PresentationLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C82C22A48500DBFE5D /* PresentationLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		244BA96B2C2317A20088F53D /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA96A2C2317A20088F53D /* DIContainer.swift */; };
+		244BA96D2C23187D0088F53D /* ViewResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA96C2C23187D0088F53D /* ViewResolver.swift */; };
 		4AE5E08D5FD0795081A59028 /* Pods_EntainTechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA452F3EC1BA801C72A780E5 /* Pods_EntainTechTests.framework */; };
 		7284E736C4E9D50CAACCA472 /* Pods_EntainTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534D5DA7EFCBBEB63FACB154 /* Pods_EntainTech.framework */; };
 		CC3D12D58BEAEA95880F3321 /* Pods_EntainTech_EntainTechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C6AF8EA788AA546D94C04E /* Pods_EntainTech_EntainTechUITests.framework */; };
@@ -63,7 +64,6 @@
 		17CC01CCDCB26A384E7CCBA3 /* Pods-EntainTechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntainTechTests.release.xcconfig"; path = "Target Support Files/Pods-EntainTechTests/Pods-EntainTechTests.release.xcconfig"; sourceTree = "<group>"; };
 		2443C2D02C229D5F00DBFE5D /* EntainTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EntainTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443C2D32C229D5F00DBFE5D /* EntainTechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainTechApp.swift; sourceTree = "<group>"; };
-		2443C2D52C229D5F00DBFE5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2443C2D72C229D6100DBFE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2443C2D92C229D6100DBFE5D /* EntainTech.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EntainTech.entitlements; sourceTree = "<group>"; };
 		2443C2DB2C229D6100DBFE5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -76,6 +76,8 @@
 		2443C3C62C22A48500DBFE5D /* DataLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443C3C72C22A48500DBFE5D /* DomainLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DomainLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443C3C82C22A48500DBFE5D /* PresentationLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PresentationLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		244BA96A2C2317A20088F53D /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		244BA96C2C23187D0088F53D /* ViewResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewResolver.swift; sourceTree = "<group>"; };
 		2F3D7629F83D691F27970D07 /* Pods-EntainTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntainTech.debug.xcconfig"; path = "Target Support Files/Pods-EntainTech/Pods-EntainTech.debug.xcconfig"; sourceTree = "<group>"; };
 		3A8F6DFE84EA004171704369 /* Pods-EntainTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntainTech.release.xcconfig"; path = "Target Support Files/Pods-EntainTech/Pods-EntainTech.release.xcconfig"; sourceTree = "<group>"; };
 		534D5DA7EFCBBEB63FACB154 /* Pods_EntainTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EntainTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,7 +145,8 @@
 			children = (
 				2443C3C52C22A47300DBFE5D /* Info.plist */,
 				2443C2D32C229D5F00DBFE5D /* EntainTechApp.swift */,
-				2443C2D52C229D5F00DBFE5D /* ContentView.swift */,
+				244BA96A2C2317A20088F53D /* DIContainer.swift */,
+				244BA96C2C23187D0088F53D /* ViewResolver.swift */,
 				2443C2D72C229D6100DBFE5D /* Assets.xcassets */,
 				2443C2D92C229D6100DBFE5D /* EntainTech.entitlements */,
 				2443C2DA2C229D6100DBFE5D /* Preview Content */,
@@ -214,6 +217,7 @@
 				2443C2CD2C229D5F00DBFE5D /* Frameworks */,
 				2443C2CE2C229D5F00DBFE5D /* Resources */,
 				2443C3CF2C22A48500DBFE5D /* Embed Frameworks */,
+				BF5A175B7A034B1CEE627649 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +255,7 @@
 				2443C2E72C229D6200DBFE5D /* Sources */,
 				2443C2E82C229D6200DBFE5D /* Frameworks */,
 				2443C2E92C229D6200DBFE5D /* Resources */,
+				6E9F83E22018C2A214B5CD66 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -376,6 +381,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6E9F83E22018C2A214B5CD66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EntainTech-EntainTechUITests/Pods-EntainTech-EntainTechUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EntainTech-EntainTechUITests/Pods-EntainTech-EntainTechUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EntainTech-EntainTechUITests/Pods-EntainTech-EntainTechUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8676C86B1A3CAAD9E8691C08 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -398,6 +420,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BF5A175B7A034B1CEE627649 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EntainTech/Pods-EntainTech-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EntainTech/Pods-EntainTech-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EntainTech/Pods-EntainTech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -405,7 +444,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2443C2D62C229D5F00DBFE5D /* ContentView.swift in Sources */,
+				244BA96B2C2317A20088F53D /* DIContainer.swift in Sources */,
+				244BA96D2C23187D0088F53D /* ViewResolver.swift in Sources */,
 				2443C2D42C229D5F00DBFE5D /* EntainTechApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,7 +520,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -541,7 +581,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

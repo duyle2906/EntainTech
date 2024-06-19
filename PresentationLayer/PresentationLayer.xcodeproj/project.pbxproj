@@ -19,6 +19,8 @@
 		244BA95C2C22EA3C0088F53D /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA95B2C22EA3C0088F53D /* Int+Extensions.swift */; };
 		244BA95F2C22F7610088F53D /* ViewResolverProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA95E2C22F7610088F53D /* ViewResolverProtocol.swift */; };
 		244BA9612C22F79F0088F53D /* ViewResolverMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9602C22F79F0088F53D /* ViewResolverMock.swift */; };
+		244BA9642C2303170088F53D /* RaceCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9632C2303170088F53D /* RaceCategoriesView.swift */; };
+		244BA9662C2305D70088F53D /* CheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9652C2305D70088F53D /* CheckboxToggleStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		244BA95B2C22EA3C0088F53D /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
 		244BA95E2C22F7610088F53D /* ViewResolverProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewResolverProtocol.swift; sourceTree = "<group>"; };
 		244BA9602C22F79F0088F53D /* ViewResolverMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewResolverMock.swift; sourceTree = "<group>"; };
+		244BA9632C2303170088F53D /* RaceCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCategoriesView.swift; sourceTree = "<group>"; };
+		244BA9652C2305D70088F53D /* CheckboxToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxToggleStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,8 @@
 		2443C3A32C22A42800DBFE5D /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
-				244BA95D2C22F74A0088F53D /* DIResolver */,
+				244BA9672C2306010088F53D /* CustomViews */,
+				244BA95D2C22F74A0088F53D /* ViewResolver */,
 				244BA95A2C22E9A30088F53D /* Extensions */,
 				244BA94F2C22E4950088F53D /* Races */,
 				2443C3A42C22A42800DBFE5D /* PresentationLayer.h */,
@@ -130,9 +135,8 @@
 		244BA94F2C22E4950088F53D /* Races */ = {
 			isa = PBXGroup;
 			children = (
-				244BA9562C22E8940088F53D /* RaceListView.swift */,
-				244BA9582C22E8D30088F53D /* RaceListViewModel.swift */,
-				244BA9522C22E4CE0088F53D /* RaceCellVew.swift */,
+				244BA9622C2302F60088F53D /* Views */,
+				244BA9712C23A60E0088F53D /* ViewModels */,
 			);
 			path = Races;
 			sourceTree = "<group>";
@@ -145,13 +149,39 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		244BA95D2C22F74A0088F53D /* DIResolver */ = {
+		244BA95D2C22F74A0088F53D /* ViewResolver */ = {
 			isa = PBXGroup;
 			children = (
 				244BA95E2C22F7610088F53D /* ViewResolverProtocol.swift */,
 				244BA9602C22F79F0088F53D /* ViewResolverMock.swift */,
 			);
-			path = DIResolver;
+			path = ViewResolver;
+			sourceTree = "<group>";
+		};
+		244BA9622C2302F60088F53D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				244BA9562C22E8940088F53D /* RaceListView.swift */,
+				244BA9522C22E4CE0088F53D /* RaceCellVew.swift */,
+				244BA9632C2303170088F53D /* RaceCategoriesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		244BA9672C2306010088F53D /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				244BA9652C2305D70088F53D /* CheckboxToggleStyle.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		244BA9712C23A60E0088F53D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				244BA9582C22E8D30088F53D /* RaceListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +296,11 @@
 			files = (
 				244BA9612C22F79F0088F53D /* ViewResolverMock.swift in Sources */,
 				244BA95F2C22F7610088F53D /* ViewResolverProtocol.swift in Sources */,
+				244BA9662C2305D70088F53D /* CheckboxToggleStyle.swift in Sources */,
 				2443C3A62C22A42800DBFE5D /* PresentationLayer.docc in Sources */,
 				244BA9592C22E8D30088F53D /* RaceListViewModel.swift in Sources */,
 				244BA9572C22E8940088F53D /* RaceListView.swift in Sources */,
+				244BA9642C2303170088F53D /* RaceCategoriesView.swift in Sources */,
 				244BA9532C22E4CE0088F53D /* RaceCellVew.swift in Sources */,
 				244BA95C2C22EA3C0088F53D /* Int+Extensions.swift in Sources */,
 			);
