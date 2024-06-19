@@ -10,8 +10,10 @@ import SwiftUI
 @main
 struct EntainTechApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        let viewResolver = ViewResolver()
+        return WindowGroup {
+            viewResolver.getRaceListView()
+                .environment(\.viewResolver, viewResolver)
         }
     }
 }
