@@ -17,6 +17,8 @@
 		244BA9572C22E8940088F53D /* RaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9562C22E8940088F53D /* RaceListView.swift */; };
 		244BA9592C22E8D30088F53D /* RaceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9582C22E8D30088F53D /* RaceListViewModel.swift */; };
 		244BA95C2C22EA3C0088F53D /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA95B2C22EA3C0088F53D /* Int+Extensions.swift */; };
+		244BA95F2C22F7610088F53D /* ViewResolverProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA95E2C22F7610088F53D /* ViewResolverProtocol.swift */; };
+		244BA9612C22F79F0088F53D /* ViewResolverMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9602C22F79F0088F53D /* ViewResolverMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		244BA9562C22E8940088F53D /* RaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListView.swift; sourceTree = "<group>"; };
 		244BA9582C22E8D30088F53D /* RaceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListViewModel.swift; sourceTree = "<group>"; };
 		244BA95B2C22EA3C0088F53D /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		244BA95E2C22F7610088F53D /* ViewResolverProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewResolverProtocol.swift; sourceTree = "<group>"; };
+		244BA9602C22F79F0088F53D /* ViewResolverMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewResolverMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		2443C3A32C22A42800DBFE5D /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				244BA95D2C22F74A0088F53D /* DIResolver */,
 				244BA95A2C22E9A30088F53D /* Extensions */,
 				244BA94F2C22E4950088F53D /* Races */,
 				2443C3A42C22A42800DBFE5D /* PresentationLayer.h */,
@@ -138,6 +143,15 @@
 				244BA95B2C22EA3C0088F53D /* Int+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		244BA95D2C22F74A0088F53D /* DIResolver */ = {
+			isa = PBXGroup;
+			children = (
+				244BA95E2C22F7610088F53D /* ViewResolverProtocol.swift */,
+				244BA9602C22F79F0088F53D /* ViewResolverMock.swift */,
+			);
+			path = DIResolver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				244BA9612C22F79F0088F53D /* ViewResolverMock.swift in Sources */,
+				244BA95F2C22F7610088F53D /* ViewResolverProtocol.swift in Sources */,
 				2443C3A62C22A42800DBFE5D /* PresentationLayer.docc in Sources */,
 				244BA9592C22E8D30088F53D /* RaceListViewModel.swift in Sources */,
 				244BA9572C22E8940088F53D /* RaceListView.swift in Sources */,
