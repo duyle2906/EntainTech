@@ -9,6 +9,6 @@ import Foundation
 
 public protocol RaceRepoProtocol {
     
-    func getNextRaces() async -> Result<[Race], ApiError>
+    func getNextRaces(count: Int) async -> Result<[Race], ApiError>
     
 }

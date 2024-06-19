@@ -9,7 +9,7 @@ import Foundation
 
 public protocol RaceInteractorProtocol {
     
-    func getNextRaces() async -> Result<[Race], ApiError>
+    func getNextRaces(count: Int) async -> Result<[Race], ApiError>
     
 }
 
@@ -21,8 +21,8 @@ public class RaceInteractor: RaceInteractorProtocol {
         self.repo = repo
     }
     
-    public func getNextRaces() async -> Result<[Race], ApiError> {
-        return await repo.getNextRaces()
+    public func getNextRaces(count: Int) async -> Result<[Race], ApiError> {
+        return await repo.getNextRaces(count: count)
     }
     
 }
