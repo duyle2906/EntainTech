@@ -1,0 +1,433 @@
+{
+  "status": 200,
+  "data": {
+    "next_to_go_ids": [
+      "b400872f-e872-4d48-a7a5-c9ce529281be",
+      "3df55782-fed4-40e3-8de5-737993553660",
+      "50847c8b-aa78-4eea-9f4e-51930c177610",
+      "f2f28145-0297-46be-8b17-9a3e2dafc129",
+      "eea8a716-5ece-436d-9079-114c8870de4d",
+      "3abdaaa4-8ed2-4682-8341-1e442c081a74",
+      "a8c6bb74-fb79-46b9-b7a5-6b71e392d454",
+      "dbe61309-cd8d-4211-9e79-cb609b409001",
+      "6adb24fe-1c24-4fdb-a929-298762e90ba4",
+      "40c681f4-cd76-40c9-9857-9abce00a5af6"
+    ],
+    "race_summaries": {
+      "3abdaaa4-8ed2-4682-8341-1e442c081a74": {
+        "race_id": "3abdaaa4-8ed2-4682-8341-1e442c081a74",
+        "race_name": "Minmi Hotel",
+        "race_number": 10,
+        "meeting_id": "da5904e2-cf60-45ec-af44-b86d696d2ca9",
+        "meeting_name": "The Gardens",
+        "category_id": "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+        "advertised_start": {
+          "seconds": 1718773980
+        },
+        "race_form": {
+          "distance": 400,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+            "name": "Good",
+            "short_name": "good"
+          },
+          "track_condition_id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+          "weather": {
+            "id": "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+            "name": "FINE",
+            "short_name": "fine",
+            "icon_uri": "FINE"
+          },
+          "weather_id": "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+          "race_comment": "LAZY PINEAPPLE (7) was well fancied last time and led throughout to score (22.78) at this track in a Grade 5 over 400m. Recorded the quickest time on the card last start. Sure to prove hard to beat. MULWEE GLENN (1) was narrowly beaten when placing two back but missed the frame latest finishing fourth (20.63) in a NG at Tamworth. Expecting significant improvement this line-up. LIMEBURNER TOPAZ (2) stuck on well last time to finish 0.8 lengths back in third (23.22) at this track in a Grade 5 over 400m. Has performed well from this box with a win and two minor placings to her name from four starts. Bold showing expected. ZIPPING JAYWALK (4) cannot be left out over a shorter trip.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"The Gardens\",\"state\":\"NSW\",\"country\":\"AUS\",\"number\":10,\"race_name\":\"Minmi Hotel\",\"time\":\"2024-06-19T05:13:00Z\",\"class\":\"5th Grade\",\"start_type\":\"\",\"prizemonies\":{\"1st\":1500,\"2nd\":460,\"3rd\":350,\"4th\":100,\"total_value\":2410},\"localised_prizemonies\":{\"AUD\":{\"total_value\":2410},\"NZD\":{\"total_value\":2603}},\"rail_position\":\"\",\"track_direction\":\"Left\",\"track_surface\":\"All Weather\",\"group\":\"\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "LAZY PINEAPPLE (7) was well fancied last time and led throughout to score (22.78) at this track in a Grade 5 over 400m. Recorded the quickest time on the card last start. Sure to prove hard to beat. MULWEE GLENN (1) was narrowly beaten when placing two back but missed the frame latest finishing fourth (20.63) in a NG at Tamworth. Expecting significant improvement this line-up. LIMEBURNER TOPAZ (2) stuck on well last time to finish 0.8 lengths back in third (23.22) at this track in a Grade 5 over 400m. Has performed well from this box with a win and two minor placings to her name from four starts. Bold showing expected. ZIPPING JAYWALK (4) cannot be left out over a shorter trip."
+        },
+        "venue_id": "1068331f-32f8-42f6-b3ce-d8573358464e",
+        "venue_name": "The Gardens",
+        "venue_state": "NSW",
+        "venue_country": "AUS"
+      },
+      "3df55782-fed4-40e3-8de5-737993553660": {
+        "race_id": "3df55782-fed4-40e3-8de5-737993553660",
+        "race_name": "Bendigo Advertiser",
+        "race_number": 2,
+        "meeting_id": "b75c3f77-dfbb-4b91-991c-2f328fb993f1",
+        "meeting_name": "Bendigo",
+        "category_id": "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+        "advertised_start": {
+          "seconds": 1718773440
+        },
+        "race_form": {
+          "distance": 425,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+            "name": "Good",
+            "short_name": "good"
+          },
+          "track_condition_id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+          "weather": {
+            "id": "5ba75165-3cec-11eb-88bb-36fbfdf5d97f",
+            "name": "OCAST",
+            "short_name": "ocast",
+            "icon_uri": "OCAST"
+          },
+          "weather_id": "5ba75165-3cec-11eb-88bb-36fbfdf5d97f",
+          "race_comment": "JUNIOR RUSLIE (1) jumped from out wide and was game in defeat last start when a 2 length second (23.44) behind Here Comes Shaka at Warragul. Sure to be about the mark. MY GIRL KELLIE (4) missed the frame last time when fourth (29.27) at this track in a Maiden but not beaten far the start prior. This looks easier and expected to improve sharply. BARELLEN SILK (2) has been mixing form lately, hitting the frame two back before finishing fourth (24.78) at Horsham in a Maiden. Well placed here and should do much better. READY TO STAGGER (6) is new to this circuit but should be in the mix.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Bendigo\",\"state\":\"VIC\",\"country\":\"AUS\",\"number\":2,\"race_name\":\"Bendigo Advertiser\",\"time\":\"2024-06-19T05:04:00Z\",\"class\":\"Tier 3 - Maiden\",\"start_type\":\"\",\"prizemonies\":{\"1st\":1000,\"2nd\":320,\"3rd\":160,\"4th\":50,\"5th\":0,\"6th\":0,\"7th\":0,\"8th\":0,\"total_value\":1530},\"localised_prizemonies\":{\"AUD\":{\"total_value\":1530},\"NZD\":{\"total_value\":1652}},\"rail_position\":\"\",\"track_direction\":\"Left\",\"track_surface\":\"All Weather\",\"group\":\"\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "JUNIOR RUSLIE (1) jumped from out wide and was game in defeat last start when a 2 length second (23.44) behind Here Comes Shaka at Warragul. Sure to be about the mark. MY GIRL KELLIE (4) missed the frame last time when fourth (29.27) at this track in a Maiden but not beaten far the start prior. This looks easier and expected to improve sharply. BARELLEN SILK (2) has been mixing form lately, hitting the frame two back before finishing fourth (24.78) at Horsham in a Maiden. Well placed here and should do much better. READY TO STAGGER (6) is new to this circuit but should be in the mix."
+        },
+        "venue_id": "ab57e842-c2b1-4508-b1c8-dfa908a2db54",
+        "venue_name": "Bendigo",
+        "venue_state": "VIC",
+        "venue_country": "AUS"
+      },
+      "40c681f4-cd76-40c9-9857-9abce00a5af6": {
+        "race_id": "40c681f4-cd76-40c9-9857-9abce00a5af6",
+        "race_name": "Race 5 - 800",
+        "race_number": 5,
+        "meeting_id": "bce149eb-2645-40e2-8014-3fda7febdc95",
+        "meeting_name": "Urawa",
+        "category_id": "4a2788f8-e825-4d36-9894-efd4baf1cfae",
+        "advertised_start": {
+          "seconds": 1718774400
+        },
+        "race_form": {
+          "distance": 800,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "906cd562-a37c-11e7-a5c6-0ab32e6ac8d2",
+            "name": "Soft",
+            "short_name": "soft"
+          },
+          "track_condition_id": "906cd562-a37c-11e7-a5c6-0ab32e6ac8d2",
+          "weather": {
+            "id": "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+            "name": "FINE",
+            "short_name": "fine",
+            "icon_uri": "FINE"
+          },
+          "weather_id": "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+          "race_comment": "MEGU (3) went forward and proved too strong last time out, scoring by 1.5 lengths over 800m at this track. Likely improver with strong prospects. I AM KACHIMASHO (4) fought on for third last start over 800m at this track, making it three minor placings in a row. Has good early pace. Nicely placed to take this out. PEISHA KINEMA (2) has registered three minor placings from four runs this campaign. Continued the trend last time out when runner-up over 800m at this track. Has her share of ability. Hard to beat in this suitable race. K TWO EURO (9) held on well to finish second last time out over 900m at Kawasaki after leading for much of the way. Sure to run boldly again.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Urawa\",\"state\":\"JPN\",\"country\":\"JPN\",\"number\":5,\"race_name\":\"Race 5 - 800\",\"time\":\"2024-06-19T05:20:00Z\",\"class\":\"C2\",\"start_type\":\"\",\"prizemonies\":{\"total_value\":18280},\"localised_prizemonies\":{\"AUD\":{\"total_value\":18280},\"NZD\":{\"total_value\":19742}},\"rail_position\":\"True\",\"track_direction\":\"Left\",\"track_surface\":\"Dirt\",\"group\":\"\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "MEGU (3) went forward and proved too strong last time out, scoring by 1.5 lengths over 800m at this track. Likely improver with strong prospects. I AM KACHIMASHO (4) fought on for third last start over 800m at this track, making it three minor placings in a row. Has good early pace. Nicely placed to take this out. PEISHA KINEMA (2) has registered three minor placings from four runs this campaign. Continued the trend last time out when runner-up over 800m at this track. Has her share of ability. Hard to beat in this suitable race. K TWO EURO (9) held on well to finish second last time out over 900m at Kawasaki after leading for much of the way. Sure to run boldly again."
+        },
+        "venue_id": "26207fdc-6176-4437-b7bc-25fec74c7bc8",
+        "venue_name": "Urawa",
+        "venue_state": "JPN",
+        "venue_country": "JPN"
+      },
+      "50847c8b-aa78-4eea-9f4e-51930c177610": {
+        "race_id": "50847c8b-aa78-4eea-9f4e-51930c177610",
+        "race_name": "Temora Gbota Welcomes You Maiden",
+        "race_number": 1,
+        "meeting_id": "2d3c4622-3ba3-4b66-93f8-c099503ced3f",
+        "meeting_name": "Temora",
+        "category_id": "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+        "advertised_start": {
+          "seconds": 1718773620
+        },
+        "race_form": {
+          "distance": 330,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+            "name": "Good",
+            "short_name": "good"
+          },
+          "track_condition_id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+          "weather": {
+            "id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+            "name": "Fine",
+            "short_name": "fine",
+            "icon_uri": "Fine"
+          },
+          "weather_id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+          "race_comment": "GLITZY ETHICS (5) is overdue for a maiden success having placed at three of eight starts and finishing in the money again at Goulburn. Although beaten was on pace and game in defeat. One of the leading chances. DIXIE'S ETHICS (4) still a maiden after six runs but rarely out of the placings. Hasn't been able to break through recently but continues to race well, filling the minors at the last two starts. Expected to feature. SHOWING PACE (2) copped a bump in the run and missed the frame last time when seventh (19.45) at Dubbo over 318m in a Maiden. Rates a leading chance on best. WHAT KEPT YOU (1) finished in the placings last start and deserves some thought.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Temora\",\"state\":\"NSW\",\"country\":\"AUS\",\"number\":1,\"race_name\":\"Temora Gbota Welcomes You Maiden\",\"time\":\"2024-06-19T05:07:00Z\",\"class\":\"Maiden\",\"start_type\":\"\",\"prizemonies\":{\"1st\":1200,\"2nd\":340,\"3rd\":250,\"4th\":100,\"total_value\":1890},\"localised_prizemonies\":{\"AUD\":{\"total_value\":1890},\"NZD\":{\"total_value\":2041}},\"rail_position\":\"\",\"track_direction\":\"Left\",\"track_surface\":\"All Weather\",\"group\":\"\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "GLITZY ETHICS (5) is overdue for a maiden success having placed at three of eight starts and finishing in the money again at Goulburn. Although beaten was on pace and game in defeat. One of the leading chances. DIXIE'S ETHICS (4) still a maiden after six runs but rarely out of the placings. Hasn't been able to break through recently but continues to race well, filling the minors at the last two starts. Expected to feature. SHOWING PACE (2) copped a bump in the run and missed the frame last time when seventh (19.45) at Dubbo over 318m in a Maiden. Rates a leading chance on best. WHAT KEPT YOU (1) finished in the placings last start and deserves some thought."
+        },
+        "venue_id": "3aa6e464-eaec-4651-aed4-e78982e66a18",
+        "venue_name": "Temora",
+        "venue_state": "NSW",
+        "venue_country": "AUS"
+      },
+      "6adb24fe-1c24-4fdb-a929-298762e90ba4": {
+        "race_id": "6adb24fe-1c24-4fdb-a929-298762e90ba4",
+        "race_name": "Sportsbet Bet With Mates (Bm70)",
+        "race_number": 6,
+        "meeting_id": "9884864e-27a4-4490-a5b3-7e7f3bd790f9",
+        "meeting_name": "Sandown",
+        "category_id": "4a2788f8-e825-4d36-9894-efd4baf1cfae",
+        "advertised_start": {
+          "seconds": 1718774400
+        },
+        "race_form": {
+          "distance": 1500,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "081c1e04-a6ed-11e7-96c3-0656c85e309e",
+            "name": "Soft6",
+            "short_name": "soft6"
+          },
+          "track_condition_id": "081c1e04-a6ed-11e7-96c3-0656c85e309e",
+          "weather": {
+            "id": "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+            "name": "FINE",
+            "short_name": "fine",
+            "icon_uri": "FINE"
+          },
+          "weather_id": "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+          "race_comment": "AWASH (2) comes here third-up and ready to fire. He made good improvement second-up at Cranbourne in a small field in this grade when beaten half a length. He's got the ratings necessary to take this out and if Gaudray can slot him in behind the speed he should go close. NATION'S CALL (1) is a handy horse with a good record, coming off an easy win at very short odds at Pakenham over a subsequent winner. Rates highly and will take beating. STAR VEGA (3) was okay first up in a bunched finish when unable to threaten but will be much fitter and the rise in trip suits. RUN NAAN (6) has won his past two and must have a case. OVERACTIVE (4) was okay at his Australian debut and can improve.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Sandown\",\"state\":\"VIC\",\"country\":\"AUS\",\"number\":6,\"race_name\":\"Sportsbet Bet With Mates (Bm70)\",\"time\":\"2024-06-19T05:20:00Z\",\"class\":\"BM70\",\"start_type\":\"\",\"prizemonies\":{\"10th\":1000,\"1st\":27500,\"2nd\":9000,\"3rd\":4500,\"4th\":2500,\"5th\":1500,\"6th\":1000,\"7th\":1000,\"8th\":1000,\"9th\":1000,\"total_value\":50000},\"localised_prizemonies\":{\"AUD\":{\"total_value\":50000},\"NZD\":{\"total_value\":54000}},\"rail_position\":\"Out 8m Entire Circuit.\",\"track_direction\":\"Left\",\"track_surface\":\"Turf\",\"group\":\"\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "AWASH (2) comes here third-up and ready to fire. He made good improvement second-up at Cranbourne in a small field in this grade when beaten half a length. He's got the ratings necessary to take this out and if Gaudray can slot him in behind the speed he should go close. NATION'S CALL (1) is a handy horse with a good record, coming off an easy win at very short odds at Pakenham over a subsequent winner. Rates highly and will take beating. STAR VEGA (3) was okay first up in a bunched finish when unable to threaten but will be much fitter and the rise in trip suits. RUN NAAN (6) has won his past two and must have a case. OVERACTIVE (4) was okay at his Australian debut and can improve."
+        },
+        "venue_id": "1f3d2c19-0a43-4848-b569-2dc5bf954efb",
+        "venue_name": "Sandown",
+        "venue_state": "VIC",
+        "venue_country": "AUS"
+      },
+      "a8c6bb74-fb79-46b9-b7a5-6b71e392d454": {
+        "race_id": "a8c6bb74-fb79-46b9-b7a5-6b71e392d454",
+        "race_name": "Glenroy Chaff Mdn",
+        "race_number": 2,
+        "meeting_id": "c22e9c03-7d99-48c5-8568-80ea268b3233",
+        "meeting_name": "Belmont",
+        "category_id": "4a2788f8-e825-4d36-9894-efd4baf1cfae",
+        "advertised_start": {
+          "seconds": 1718774040
+        },
+        "race_form": {
+          "distance": 1700,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "066119d8-3b74-11e8-a5eb-06a5c6d9a756",
+            "name": "Soft5",
+            "short_name": "soft5"
+          },
+          "track_condition_id": "066119d8-3b74-11e8-a5eb-06a5c6d9a756",
+          "weather": {
+            "id": "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+            "name": "FINE",
+            "short_name": "fine",
+            "icon_uri": "FINE"
+          },
+          "weather_id": "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+          "race_comment": "INFURIATED (6) rattled home to catch the eye at Pinjarra (S) Last start and he looks well suited to the rise in trip. The sectionals backed up the visuals last start and while he has drawn wide again, he finds a suitable race. Can storm over the top to shed the maiden tag. BLOW BACK (4) just missed over 1650m here in heavy conditions 21 days ago in a high-rating effort. He'll need his early speed to cross from the draw, but he's open to further improvement and he's expected to prove very hard to catch from out in front. TROOPER PHOENIX (2) just missed over 1400m at Pinjarra last time out, going under in a photo finish. This looks to set up similarly from a nice draw and he should be ready to peak now third-up. Can make his presence felt. COVENTRY REEF (1) is racing well without winning this time in and is not to be discounted.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Belmont\",\"state\":\"WA\",\"country\":\"AUS\",\"number\":2,\"race_name\":\"Glenroy Chaff Mdn\",\"time\":\"2024-06-19T05:14:00Z\",\"class\":\"MDN\",\"start_type\":\"\",\"prizemonies\":{\"10th\":450,\"1st\":13700,\"2nd\":4650,\"3rd\":2200,\"4th\":975,\"5th\":725,\"6th\":450,\"7th\":450,\"8th\":450,\"9th\":450,\"total_value\":25000},\"localised_prizemonies\":{\"AUD\":{\"total_value\":25000},\"NZD\":{\"total_value\":27000}},\"rail_position\":\"18m cutaway applied.\",\"track_direction\":\"Left\",\"track_surface\":\"Turf\",\"group\":\"\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "INFURIATED (6) rattled home to catch the eye at Pinjarra (S) Last start and he looks well suited to the rise in trip. The sectionals backed up the visuals last start and while he has drawn wide again, he finds a suitable race. Can storm over the top to shed the maiden tag. BLOW BACK (4) just missed over 1650m here in heavy conditions 21 days ago in a high-rating effort. He'll need his early speed to cross from the draw, but he's open to further improvement and he's expected to prove very hard to catch from out in front. TROOPER PHOENIX (2) just missed over 1400m at Pinjarra last time out, going under in a photo finish. This looks to set up similarly from a nice draw and he should be ready to peak now third-up. Can make his presence felt. COVENTRY REEF (1) is racing well without winning this time in and is not to be discounted."
+        },
+        "venue_id": "c9e4802c-77a2-45ea-935e-79785cfece6e",
+        "venue_name": "Belmont",
+        "venue_state": "WA",
+        "venue_country": "AUS"
+      },
+      "b400872f-e872-4d48-a7a5-c9ce529281be": {
+        "race_id": "b400872f-e872-4d48-a7a5-c9ce529281be",
+        "race_name": "G & J East Kadina Hcp (56)",
+        "race_number": 4,
+        "meeting_id": "11142477-b141-4b0e-98c4-51f4a4e65659",
+        "meeting_name": "Balaklava",
+        "category_id": "4a2788f8-e825-4d36-9894-efd4baf1cfae",
+        "advertised_start": {
+          "seconds": 1718773200
+        },
+        "race_form": {
+          "distance": 1600,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "081c1e04-a6ed-11e7-96c3-0656c85e309e",
+            "name": "Soft6",
+            "short_name": "soft6"
+          },
+          "track_condition_id": "081c1e04-a6ed-11e7-96c3-0656c85e309e",
+          "weather": {
+            "id": "5ba75165-3cec-11eb-88bb-36fbfdf5d97f",
+            "name": "OCAST",
+            "short_name": "ocast",
+            "icon_uri": "OCAST"
+          },
+          "weather_id": "5ba75165-3cec-11eb-88bb-36fbfdf5d97f",
+          "race_comment": "THE CASSINI (2) picked up nicely in the lane to just miss at Mildura. Rates highly on best figures and the rise in trip suits. Bold showing anticipated. FANTASTIC HOST (4) got off the mark with a determined win two back and then followed it up with a solid effort at Swan Hill when sent out favourite. Strikes an easier assignment this time and is a winning hope. HARBOURING (1) has plenty of early dash and is sure to be giving another bold sight. Shoulders a handy record at this venue and could just catch them snoozing. ALLUSION (6) showed improvement last start at Gawler when filling the frame. Steps out to a preferred trip and has a key jockey booking in Holder. Don't take lightly.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Balaklava\",\"state\":\"SA\",\"country\":\"AUS\",\"number\":4,\"race_name\":\"G \\u0026 J East Kadina Hcp (56)\",\"time\":\"2024-06-19T05:00:00Z\",\"class\":\"BM0-56\",\"start_type\":\"\",\"prizemonies\":{\"1st\":12500,\"2nd\":4400,\"3rd\":2450,\"4th\":1950,\"5th\":925,\"6th\":925,\"7th\":925,\"8th\":925,\"total_value\":25000},\"localised_prizemonies\":{\"AUD\":{\"total_value\":25000},\"NZD\":{\"total_value\":27000}},\"rail_position\":\"Out 3m 950m-450m. Out 2.5m 450m-W/Post. Out 2m W/Post-1600m. True Remainder. (Pent: 5.85).\",\"track_direction\":\"Left\",\"track_surface\":\"Turf\",\"group\":\"\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "THE CASSINI (2) picked up nicely in the lane to just miss at Mildura. Rates highly on best figures and the rise in trip suits. Bold showing anticipated. FANTASTIC HOST (4) got off the mark with a determined win two back and then followed it up with a solid effort at Swan Hill when sent out favourite. Strikes an easier assignment this time and is a winning hope. HARBOURING (1) has plenty of early dash and is sure to be giving another bold sight. Shoulders a handy record at this venue and could just catch them snoozing. ALLUSION (6) showed improvement last start at Gawler when filling the frame. Steps out to a preferred trip and has a key jockey booking in Holder. Don't take lightly."
+        },
+        "venue_id": "dede5373-4030-4668-8384-303543102e07",
+        "venue_name": "Balaklava",
+        "venue_state": "SA",
+        "venue_country": "AUS"
+      },
+      "dbe61309-cd8d-4211-9e79-cb609b409001": {
+        "race_id": "dbe61309-cd8d-4211-9e79-cb609b409001",
+        "race_name": "Borgbet Tipping Service",
+        "race_number": 1,
+        "meeting_id": "f27a21f1-141a-43d1-957b-53339ddde022",
+        "meeting_name": "Albion Park",
+        "category_id": "9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+        "advertised_start": {
+          "seconds": 1718774220
+        },
+        "race_form": {
+          "distance": 395,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+            "name": "Good",
+            "short_name": "good"
+          },
+          "track_condition_id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+          "weather": {
+            "id": "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+            "name": "FINE",
+            "short_name": "fine",
+            "icon_uri": "FINE"
+          },
+          "weather_id": "08e5f78c-1a36-11eb-9269-cef03e67f1a3",
+          "race_comment": "STATIC (1) shows ability but remains a maiden after eight starts. Was in the placings again last time finishing second (30.80) at this track. Comes out of a solid form race last start. One of the leading chances. NEVADA ZULU (3) broke a string of placings finishing in the money two on end before a last start fifth (21.15) at Capalaba. One of the main contenders. ANYTIME ROMEO (2) copped a check in the run last time and never threatened when seventh (21.52) in a Maiden at Capalaba. Key player if finds best. BELLA OUTLAW (8) is a maiden but regularly finds a top-three finish.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Albion Park\",\"state\":\"QLD\",\"country\":\"AUS\",\"number\":1,\"race_name\":\"Borgbet Tipping Service\",\"time\":\"2024-06-19T05:17:00Z\",\"class\":\"Maiden\",\"start_type\":\"\",\"prizemonies\":{\"1st\":2275,\"2nd\":700,\"3rd\":350,\"4th\":175,\"total_value\":3500},\"localised_prizemonies\":{\"AUD\":{\"total_value\":3500},\"NZD\":{\"total_value\":3780}},\"rail_position\":\"\",\"track_direction\":\"Right\",\"track_surface\":\"All Weather\",\"group\":\"\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "STATIC (1) shows ability but remains a maiden after eight starts. Was in the placings again last time finishing second (30.80) at this track. Comes out of a solid form race last start. One of the leading chances. NEVADA ZULU (3) broke a string of placings finishing in the money two on end before a last start fifth (21.15) at Capalaba. One of the main contenders. ANYTIME ROMEO (2) copped a check in the run last time and never threatened when seventh (21.52) in a Maiden at Capalaba. Key player if finds best. BELLA OUTLAW (8) is a maiden but regularly finds a top-three finish."
+        },
+        "venue_id": "12c496d8-9397-4ba4-ba3c-d34ca3625858",
+        "venue_name": "Albion Park",
+        "venue_state": "QLD",
+        "venue_country": "AUS"
+      },
+      "eea8a716-5ece-436d-9079-114c8870de4d": {
+        "race_id": "eea8a716-5ece-436d-9079-114c8870de4d",
+        "race_name": "Schweppes (Bm72)",
+        "race_number": 5,
+        "meeting_id": "7e521e9f-ed49-4c89-9bf8-a55e38f4c264",
+        "meeting_name": "Canterbury",
+        "category_id": "4a2788f8-e825-4d36-9894-efd4baf1cfae",
+        "advertised_start": {
+          "seconds": 1718773800
+        },
+        "race_form": {
+          "distance": 1900,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "c91c2825-2b25-11e9-8745-066fe85581de",
+            "name": "Soft7",
+            "short_name": "soft7"
+          },
+          "track_condition_id": "c91c2825-2b25-11e9-8745-066fe85581de",
+          "weather": {
+            "id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+            "name": "Fine",
+            "short_name": "fine",
+            "icon_uri": "Fine"
+          },
+          "weather_id": "01994c9e-3b74-11e8-a5eb-06a5c6d9a756",
+          "race_comment": "REMATCH (2) wound up strongly from midfield on the turn to narrowly win a Rosehill Highway over 1500m in heavy going last start. Consistent gelding who carries weight well. Steps up to 1900m which holds no fears - he was beaten a length in Saturday open company over 2000m last prep. Clear top pick. TAJAWAL (4) wasn't asked for an effort in the run home in very heavy conditions at Rosehill last time out so forget the result. Neasham-trained import having his third Australian run and can show up now that he gets out over a bit more ground. Victorian visitor LOCO (1) did his best work late to get up for third over the mile at Warwick Farm a fortnight ago. Finished fourth in the SA Derby in 2023 so this extra trip is ideal at the third run back from a long break. GO TROPPO (5) wasn't beaten far in a similar race here nine days ago. Very fit and sure to be thereabouts again. MONARCHS BRAE (6) is twice a winner here at this trip and should be peaking third-up.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Canterbury\",\"state\":\"NSW\",\"country\":\"AUS\",\"number\":5,\"race_name\":\"Schweppes (Bm72)\",\"time\":\"2024-06-19T05:10:00Z\",\"class\":\"BM72\",\"start_type\":\"\",\"prizemonies\":{\"10th\":1625,\"1st\":28400,\"2nd\":10350,\"3rd\":5500,\"4th\":3600,\"5th\":2350,\"6th\":1800,\"7th\":1625,\"8th\":1625,\"9th\":1625,\"total_value\":60000},\"localised_prizemonies\":{\"AUD\":{\"total_value\":60000},\"NZD\":{\"total_value\":64800}},\"rail_position\":\"Out 3m Entire. (Pent: 5.83).\",\"track_direction\":\"Right\",\"track_surface\":\"Turf\",\"group\":\"\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "REMATCH (2) wound up strongly from midfield on the turn to narrowly win a Rosehill Highway over 1500m in heavy going last start. Consistent gelding who carries weight well. Steps up to 1900m which holds no fears - he was beaten a length in Saturday open company over 2000m last prep. Clear top pick. TAJAWAL (4) wasn't asked for an effort in the run home in very heavy conditions at Rosehill last time out so forget the result. Neasham-trained import having his third Australian run and can show up now that he gets out over a bit more ground. Victorian visitor LOCO (1) did his best work late to get up for third over the mile at Warwick Farm a fortnight ago. Finished fourth in the SA Derby in 2023 so this extra trip is ideal at the third run back from a long break. GO TROPPO (5) wasn't beaten far in a similar race here nine days ago. Very fit and sure to be thereabouts again. MONARCHS BRAE (6) is twice a winner here at this trip and should be peaking third-up."
+        },
+        "venue_id": "de62c5fd-ef7c-4782-bfb8-f7f1b28e7f9d",
+        "venue_name": "Canterbury",
+        "venue_state": "NSW",
+        "venue_country": "AUS"
+      },
+      "f2f28145-0297-46be-8b17-9a3e2dafc129": {
+        "race_id": "f2f28145-0297-46be-8b17-9a3e2dafc129",
+        "race_name": "Race 6 - 1400",
+        "race_number": 6,
+        "meeting_id": "cfdd04d5-9b56-4135-80c8-de40fc76e47b",
+        "meeting_name": "Kasamatsu",
+        "category_id": "4a2788f8-e825-4d36-9894-efd4baf1cfae",
+        "advertised_start": {
+          "seconds": 1718773800
+        },
+        "race_form": {
+          "distance": 1400,
+          "distance_type": {
+            "id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+            "name": "Metres",
+            "short_name": "m"
+          },
+          "distance_type_id": "570775ae-09ec-42d5-989d-7c8f06366aa7",
+          "track_condition": {
+            "id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+            "name": "Good",
+            "short_name": "good"
+          },
+          "track_condition_id": "10a14653-a33d-11e7-810d-0a1a4ae29bd2",
+          "race_comment": "HANDEN KING (3) raced on the speed from the outset last start and finished second over 1800m at this track. This is a suitable assignment and can get the job done. ALMA ROXANE (2) faded last time to finish sixth over 1600m at this track after showing good early speed. Change of rider to Tatsuya Watanabe who has an excellent strike rate when in the saddle, including two wins. Sure to play a big role. CAP CORSE (5) ran a better race and finished fourth last time out over 1400m at this circuit. Nicely placed to feature in the finish. PATRIE (4) did well last start but found a couple better over 1400m here. Finds a suitable race and can build on that solid recent effort.",
+          "additional_data": "{\"revealed_race_info\":{\"track_name\":\"Kasamatsu\",\"state\":\"JPN\",\"country\":\"JPN\",\"number\":6,\"race_name\":\"Race 6 - 1400\",\"time\":\"2024-06-19T05:10:00Z\",\"class\":\"B4\",\"start_type\":\"\",\"prizemonies\":{\"total_value\":7360},\"localised_prizemonies\":{\"AUD\":{\"total_value\":7360},\"NZD\":{\"total_value\":7949}},\"rail_position\":\"\",\"track_direction\":\"Right\",\"track_surface\":\"Dirt\",\"group\":\"\"}}",
+          "generated": 1,
+          "silk_base_url": "drr38safykj6s.cloudfront.net",
+          "race_comment_alternative": "HANDEN KING (3) raced on the speed from the outset last start and finished second over 1800m at this track. This is a suitable assignment and can get the job done. ALMA ROXANE (2) faded last time to finish sixth over 1600m at this track after showing good early speed. Change of rider to Tatsuya Watanabe who has an excellent strike rate when in the saddle, including two wins. Sure to play a big role. CAP CORSE (5) ran a better race and finished fourth last time out over 1400m at this circuit. Nicely placed to feature in the finish. PATRIE (4) did well last start but found a couple better over 1400m here. Finds a suitable race and can build on that solid recent effort."
+        },
+        "venue_id": "ee67caf8-e6db-4086-b31a-91bd79c8d8cd",
+        "venue_name": "Kasamatsu",
+        "venue_state": "JPN",
+        "venue_country": "JPN"
+      }
+    }
+  },
+  "message": "Next 10 races from each category"
+}
