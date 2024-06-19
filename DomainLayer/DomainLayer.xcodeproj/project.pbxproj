@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		2443C3312C22A3B200DBFE5D /* DomainLayer.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3302C22A3B200DBFE5D /* DomainLayer.docc */; };
 		2443C3372C22A3B200DBFE5D /* DomainLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C32C2C22A3B100DBFE5D /* DomainLayer.framework */; };
-		2443C33C2C22A3B200DBFE5D /* DomainLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C33B2C22A3B200DBFE5D /* DomainLayerTests.swift */; };
 		2443C33D2C22A3B200DBFE5D /* DomainLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2443C32F2C22A3B100DBFE5D /* DomainLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2443C3D22C22A7A400DBFE5D /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3D12C22A7A400DBFE5D /* Race.swift */; };
 		2443C3D52C22A98100DBFE5D /* RaceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3D42C22A98100DBFE5D /* RaceInteractor.swift */; };
 		2443C3D72C22A9A700DBFE5D /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3D62C22A9A600DBFE5D /* ApiError.swift */; };
 		2443C3DA2C22AA2000DBFE5D /* RaceRepoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3D92C22AA2000DBFE5D /* RaceRepoProtocol.swift */; };
+		244BA94A2C22D4330088F53D /* Race+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9492C22D4330088F53D /* Race+Stub.swift */; };
+		244BA94C2C22D7950088F53D /* RaceRepoMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA94B2C22D7950088F53D /* RaceRepoMock.swift */; };
+		244BA94E2C22D8980088F53D /* RaceInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA94D2C22D8980088F53D /* RaceInteractorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,11 +34,13 @@
 		2443C32F2C22A3B100DBFE5D /* DomainLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DomainLayer.h; sourceTree = "<group>"; };
 		2443C3302C22A3B200DBFE5D /* DomainLayer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DomainLayer.docc; sourceTree = "<group>"; };
 		2443C3362C22A3B200DBFE5D /* DomainLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2443C33B2C22A3B200DBFE5D /* DomainLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainLayerTests.swift; sourceTree = "<group>"; };
 		2443C3D12C22A7A400DBFE5D /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
 		2443C3D42C22A98100DBFE5D /* RaceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceInteractor.swift; sourceTree = "<group>"; };
 		2443C3D62C22A9A600DBFE5D /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		2443C3D92C22AA2000DBFE5D /* RaceRepoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceRepoProtocol.swift; sourceTree = "<group>"; };
+		244BA9492C22D4330088F53D /* Race+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Race+Stub.swift"; sourceTree = "<group>"; };
+		244BA94B2C22D7950088F53D /* RaceRepoMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceRepoMock.swift; sourceTree = "<group>"; };
+		244BA94D2C22D8980088F53D /* RaceInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceInteractorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +95,9 @@
 		2443C33A2C22A3B200DBFE5D /* DomainLayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				2443C33B2C22A3B200DBFE5D /* DomainLayerTests.swift */,
+				244BA9482C22D3B10088F53D /* Interactors */,
+				244BA9472C22D3A40088F53D /* Stubs */,
+				244BA9462C22D3940088F53D /* Mocks */,
 			);
 			path = DomainLayerTests;
 			sourceTree = "<group>";
@@ -119,6 +125,30 @@
 				2443C3D92C22AA2000DBFE5D /* RaceRepoProtocol.swift */,
 			);
 			path = RepoProtocols;
+			sourceTree = "<group>";
+		};
+		244BA9462C22D3940088F53D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				244BA94B2C22D7950088F53D /* RaceRepoMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		244BA9472C22D3A40088F53D /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				244BA9492C22D4330088F53D /* Race+Stub.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		244BA9482C22D3B10088F53D /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				244BA94D2C22D8980088F53D /* RaceInteractorTests.swift */,
+			);
+			path = Interactors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +216,7 @@
 					};
 					2443C3352C22A3B200DBFE5D = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -242,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2443C33C2C22A3B200DBFE5D /* DomainLayerTests.swift in Sources */,
+				244BA94C2C22D7950088F53D /* RaceRepoMock.swift in Sources */,
+				244BA94A2C22D4330088F53D /* Race+Stub.swift in Sources */,
+				244BA94E2C22D8980088F53D /* RaceInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +495,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -473,6 +507,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -483,6 +518,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
