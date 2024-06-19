@@ -13,6 +13,10 @@
 		2443C3B22C22A42800DBFE5D /* PresentationLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2443C3A42C22A42800DBFE5D /* PresentationLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2443C3BD2C22A43C00DBFE5D /* DomainLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3BC2C22A43C00DBFE5D /* DomainLayer.framework */; };
 		2443C3BE2C22A43C00DBFE5D /* DomainLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3BC2C22A43C00DBFE5D /* DomainLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		244BA9532C22E4CE0088F53D /* RaceCellVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9522C22E4CE0088F53D /* RaceCellVew.swift */; };
+		244BA9572C22E8940088F53D /* RaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9562C22E8940088F53D /* RaceListView.swift */; };
+		244BA9592C22E8D30088F53D /* RaceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9582C22E8D30088F53D /* RaceListViewModel.swift */; };
+		244BA95C2C22EA3C0088F53D /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA95B2C22EA3C0088F53D /* Int+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		2443C3AB2C22A42800DBFE5D /* PresentationLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentationLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443C3B02C22A42800DBFE5D /* PresentationLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationLayerTests.swift; sourceTree = "<group>"; };
 		2443C3BC2C22A43C00DBFE5D /* DomainLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DomainLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		244BA9522C22E4CE0088F53D /* RaceCellVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCellVew.swift; sourceTree = "<group>"; };
+		244BA9562C22E8940088F53D /* RaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListView.swift; sourceTree = "<group>"; };
+		244BA9582C22E8D30088F53D /* RaceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListViewModel.swift; sourceTree = "<group>"; };
+		244BA95B2C22EA3C0088F53D /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,8 @@
 		2443C3A32C22A42800DBFE5D /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				244BA95A2C22E9A30088F53D /* Extensions */,
+				244BA94F2C22E4950088F53D /* Races */,
 				2443C3A42C22A42800DBFE5D /* PresentationLayer.h */,
 				2443C3A52C22A42800DBFE5D /* PresentationLayer.docc */,
 			);
@@ -110,6 +120,24 @@
 				2443C3BC2C22A43C00DBFE5D /* DomainLayer.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		244BA94F2C22E4950088F53D /* Races */ = {
+			isa = PBXGroup;
+			children = (
+				244BA9562C22E8940088F53D /* RaceListView.swift */,
+				244BA9582C22E8D30088F53D /* RaceListViewModel.swift */,
+				244BA9522C22E4CE0088F53D /* RaceCellVew.swift */,
+			);
+			path = Races;
+			sourceTree = "<group>";
+		};
+		244BA95A2C22E9A30088F53D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				244BA95B2C22EA3C0088F53D /* Int+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2443C3A62C22A42800DBFE5D /* PresentationLayer.docc in Sources */,
+				244BA9592C22E8D30088F53D /* RaceListViewModel.swift in Sources */,
+				244BA9572C22E8940088F53D /* RaceListView.swift in Sources */,
+				244BA9532C22E4CE0088F53D /* RaceCellVew.swift in Sources */,
+				244BA95C2C22EA3C0088F53D /* Int+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -469,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
