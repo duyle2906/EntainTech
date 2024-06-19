@@ -7,18 +7,25 @@
 
 import SwiftUI
 
-struct RaceListView: View {
-    var viewModel: RaceListViewModel
-    let raceStartTimer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+public struct RaceListView: View {
+    @ObservedObject var viewModel: RaceListViewModel
     @State private var currentTime: Date = Date.now
     
-    var body: some View {
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    
+    public var body: some View {
         List {
             ForEach(viewModel.displayedRaces) {
                 race in
                 RaceCellVew(race: race, currentTime: currentTime)
             }
-        }.onReceive(raceStartTimer) { input in
+        }
+        .onAppear() {
+            Task {
+                await viewModel.getNextRaces()
+            }
+        }
+        .onReceive(timer) { input in
             currentTime = input
             viewModel.checkExpiredRaces(currentTime: currentTime)
         }
@@ -26,5 +33,5 @@ struct RaceListView: View {
 }
 
 #Preview {
-    RaceListView(viewModel: RaceListViewModel())
+    ViewResolverMock().getRaceListView()
 }
