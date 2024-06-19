@@ -8,33 +8,33 @@
 import Foundation
 
 // MARK: - GetNextRacesResponse
-struct GetNextRacesResponse: Codable {
-    let status: Int
-    let data: Data
-    let message: String
+public struct GetNextRacesResponse: Codable {
+    public let status: Int
+    public let data: Data
+    public let message: String
     
     // MARK: - Data
-    struct Data: Codable {
-        let nextToGoIds: [String]
-        let raceSummaries: [String: RaceSummary]
+    public struct Data: Codable {
+        public let nextToGoIds: [String]
+        public let raceSummaries: [String: RaceSummary]
 
-        enum CodingKeys: String, CodingKey {
+        public enum CodingKeys: String, CodingKey {
             case nextToGoIds = "next_to_go_ids"
             case raceSummaries = "race_summaries"
         }
     }
 
     // MARK: - RaceSummary
-    struct RaceSummary: Codable {
-        let raceID, raceName: String
-        let raceNumber: Int
-        let meetingID, meetingName, categoryID: String
-        let advertisedStart: AdvertisedStart
-        let raceForm: RaceForm
-        let venueID, venueName, venueState: String
-        let venueCountry: VenueCountry
+    public struct RaceSummary: Codable {
+        public let raceID, raceName: String
+        public let raceNumber: Int
+        public let meetingID, meetingName, categoryID: String
+        public let advertisedStart: AdvertisedStart
+        public let raceForm: RaceForm
+        public let venueID, venueName, venueState: String
+        public let venueCountry: VenueCountry
 
-        enum CodingKeys: String, CodingKey {
+        public enum CodingKeys: String, CodingKey {
             case raceID = "race_id"
             case raceName = "race_name"
             case raceNumber = "race_number"
@@ -51,25 +51,25 @@ struct GetNextRacesResponse: Codable {
     }
 
     // MARK: - AdvertisedStart
-    struct AdvertisedStart: Codable {
-        let seconds: Int
+    public struct AdvertisedStart: Codable {
+        public let seconds: Int
     }
 
     // MARK: - RaceForm
-    struct RaceForm: Codable {
-        let distance: Int
-        let distanceType: DistanceType
-        let distanceTypeID: String
-        let trackCondition: DistanceType
-        let trackConditionID: String
-        let weather: DistanceType?
-        let weatherID: String?
-        let raceComment, additionalData: String
-        let generated: Int
-        let silkBaseURL: String
-        let raceCommentAlternative: String
+    public struct RaceForm: Codable {
+        public let distance: Int
+        public let distanceType: DistanceType
+        public let distanceTypeID: String
+        public let trackCondition: DistanceType
+        public let trackConditionID: String
+        public let weather: DistanceType?
+        public let weatherID: String?
+        public let raceComment, additionalData: String
+        public let generated: Int
+        public let silkBaseURL: String
+        public let raceCommentAlternative: String
 
-        enum CodingKeys: String, CodingKey {
+        public enum CodingKeys: String, CodingKey {
             case distance
             case distanceType = "distance_type"
             case distanceTypeID = "distance_type_id"
@@ -86,18 +86,18 @@ struct GetNextRacesResponse: Codable {
     }
 
     // MARK: - DistanceType
-    struct DistanceType: Codable {
-        let id, name, shortName: String
-        let iconURI: String?
+    public struct DistanceType: Codable {
+        public let id, name, shortName: String
+        public let iconURI: String?
 
-        enum CodingKeys: String, CodingKey {
+        public enum CodingKeys: String, CodingKey {
             case id, name
             case shortName = "short_name"
             case iconURI = "icon_uri"
         }
     }
 
-    enum VenueCountry: String, Codable {
+    public enum VenueCountry: String, Codable {
         case aus = "AUS"
         case jpn = "JPN"
     }
