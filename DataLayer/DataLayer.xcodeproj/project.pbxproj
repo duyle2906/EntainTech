@@ -23,6 +23,9 @@
 		2443C3EB2C22B3C200DBFE5D /* RaceRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3EA2C22B3C200DBFE5D /* RaceRepo.swift */; };
 		2443C3EE2C22B90C00DBFE5D /* ApiServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C3ED2C22B90C00DBFE5D /* ApiServiceMock.swift */; };
 		244BA93E2C22CB0E0088F53D /* races.json in Resources */ = {isa = PBXBuildFile; fileRef = 244BA93D2C22CB0E0088F53D /* races.json */; };
+		244BA9412C22CBBD0088F53D /* RaceRepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9402C22CBBD0088F53D /* RaceRepoTests.swift */; };
+		244BA9432C22CC4A0088F53D /* RaceRemoteDataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9422C22CC4A0088F53D /* RaceRemoteDataSourceMock.swift */; };
+		244BA9452C22CDF50088F53D /* JsonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9442C22CDF50088F53D /* JsonLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		2443C3EA2C22B3C200DBFE5D /* RaceRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceRepo.swift; sourceTree = "<group>"; };
 		2443C3ED2C22B90C00DBFE5D /* ApiServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceMock.swift; sourceTree = "<group>"; };
 		244BA93D2C22CB0E0088F53D /* races.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = races.json; sourceTree = "<group>"; };
+		244BA9402C22CBBD0088F53D /* RaceRepoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceRepoTests.swift; sourceTree = "<group>"; };
+		244BA9422C22CC4A0088F53D /* RaceRemoteDataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceRemoteDataSourceMock.swift; sourceTree = "<group>"; };
+		244BA9442C22CDF50088F53D /* JsonLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +99,6 @@
 			children = (
 				243B09A62C22BD31004CCE60 /* ApiService */,
 				243B09AB2C22C349004CCE60 /* RaceRemoteDataSourceTests.swift */,
-				244BA93D2C22CB0E0088F53D /* races.json */,
 			);
 			path = RemoteDataSources;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 		2443C38B2C22A40100DBFE5D /* DataLayerTests */ = {
 			isa = PBXGroup;
 			children = (
+				244BA93F2C22CB990088F53D /* Repos */,
 				243B09A52C22BD1D004CCE60 /* RemoteDataSources */,
 				2443C3EC2C22B8F900DBFE5D /* Mocks */,
 			);
@@ -193,9 +199,20 @@
 		2443C3EC2C22B8F900DBFE5D /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
+				244BA93D2C22CB0E0088F53D /* races.json */,
 				2443C3ED2C22B90C00DBFE5D /* ApiServiceMock.swift */,
+				244BA9422C22CC4A0088F53D /* RaceRemoteDataSourceMock.swift */,
+				244BA9442C22CDF50088F53D /* JsonLoader.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		244BA93F2C22CB990088F53D /* Repos */ = {
+			isa = PBXGroup;
+			children = (
+				244BA9402C22CBBD0088F53D /* RaceRepoTests.swift */,
+			);
+			path = Repos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,8 +341,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				244BA9452C22CDF50088F53D /* JsonLoader.swift in Sources */,
 				243B09A82C22BD5F004CCE60 /* ApiServiceTests.swift in Sources */,
+				244BA9432C22CC4A0088F53D /* RaceRemoteDataSourceMock.swift in Sources */,
 				243B09AA2C22BD8C004CCE60 /* EndpointMock.swift in Sources */,
+				244BA9412C22CBBD0088F53D /* RaceRepoTests.swift in Sources */,
 				2443C3EE2C22B90C00DBFE5D /* ApiServiceMock.swift in Sources */,
 				243B09AC2C22C349004CCE60 /* RaceRemoteDataSourceTests.swift in Sources */,
 			);
