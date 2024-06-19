@@ -19,7 +19,8 @@ struct RaceListView: View {
                 RaceCellVew(race: race, currentTime: currentTime)
             }
         }.onReceive(raceStartTimer) { input in
-            self.currentTime = input
+            currentTime = input
+            viewModel.checkExpiredRaces(currentTime: currentTime)
         }
     }
 }
