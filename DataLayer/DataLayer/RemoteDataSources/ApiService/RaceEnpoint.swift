@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum RaceEndpoints: EndpointProtocol {
+enum RaceEndpoint: EndpointProtocol {
     
     case getNextRaces(count: Int)
     
