@@ -8,11 +8,6 @@ target 'EntainTech' do
   # Pods for EntainTech
   pod 'Swinject'
 
-  target 'EntainTechTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
   target 'EntainTechUITests' do
     # Pods for testing
   end
