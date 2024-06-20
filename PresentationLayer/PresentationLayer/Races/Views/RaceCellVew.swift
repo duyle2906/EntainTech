@@ -33,6 +33,8 @@ struct RaceCellVew: View {
             Spacer()
             Text(countdown)
         }
+        .accessibilityElement(children: .contain)
+        .accessibilityIdentifier("\(ViewIdentifiers.Races.cell)_\(race.id)")
     }
 }
 

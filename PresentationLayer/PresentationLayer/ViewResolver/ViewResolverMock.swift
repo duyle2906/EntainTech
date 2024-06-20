@@ -20,7 +20,7 @@ public class ViewResolverMock: ViewResolverProtocol {
 extension ViewResolverMock {
     public class RaceInteractorMock: RaceInteractorProtocol {
         var getNextRacesResult: Result<[Race], ApiError>! = .success([
-            Race(id: "00ef27df-93b2-4fd7-ae45-80bdcafe71bf", category: .greyhound, meetingName: "The Meadows", raceNumber: 1, startTimeInSeconds: TimeInterval(Date.now.timeIntervalSince1970 - 30)),
+            Race(id: "00ef27df-93b2-4fd7-ae45-80bdcafe71bf", category: .greyhound, meetingName: "The Meadows", raceNumber: 1, startTimeInSeconds: TimeInterval(Date.now.timeIntervalSince1970 - 52)),
             Race(id: "53619a74-192e-439d-ab05-5cc3af0f6540", category: .greyhound, meetingName: "Temora", raceNumber: 11, startTimeInSeconds: TimeInterval(Date.now.timeIntervalSince1970 - 15)),
             Race(id: "631b071e-75f7-4c9a-a8ae-fcad1c492dbe", category: .greyhound, meetingName: "Twitter @ Brisgreys", raceNumber: 11, startTimeInSeconds: TimeInterval(Date.now.timeIntervalSince1970 - 10)),
             Race(id: "71947940-6754-4c7f-9d09-2298f7df849a", category: .harness, meetingName: "Redcliffe", raceNumber: 5, startTimeInSeconds: TimeInterval(Date.now.timeIntervalSince1970 + 70)),

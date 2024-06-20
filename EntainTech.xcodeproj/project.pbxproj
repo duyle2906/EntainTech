@@ -10,9 +10,6 @@
 		2443C2D42C229D5F00DBFE5D /* EntainTechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C2D32C229D5F00DBFE5D /* EntainTechApp.swift */; };
 		2443C2D82C229D6100DBFE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2443C2D72C229D6100DBFE5D /* Assets.xcassets */; };
 		2443C2DC2C229D6100DBFE5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2443C2DB2C229D6100DBFE5D /* Preview Assets.xcassets */; };
-		2443C2E62C229D6200DBFE5D /* EntainTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C2E52C229D6200DBFE5D /* EntainTechTests.swift */; };
-		2443C2F02C229D6200DBFE5D /* EntainTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C2EF2C229D6200DBFE5D /* EntainTechUITests.swift */; };
-		2443C2F22C229D6200DBFE5D /* EntainTechUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2443C2F12C229D6200DBFE5D /* EntainTechUITestsLaunchTests.swift */; };
 		2443C3C92C22A48500DBFE5D /* DataLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C62C22A48500DBFE5D /* DataLayer.framework */; };
 		2443C3CA2C22A48500DBFE5D /* DataLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C62C22A48500DBFE5D /* DataLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2443C3CB2C22A48500DBFE5D /* DomainLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C72C22A48500DBFE5D /* DomainLayer.framework */; };
@@ -21,6 +18,7 @@
 		2443C3CE2C22A48500DBFE5D /* PresentationLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2443C3C82C22A48500DBFE5D /* PresentationLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		244BA96B2C2317A20088F53D /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA96A2C2317A20088F53D /* DIContainer.swift */; };
 		244BA96D2C23187D0088F53D /* ViewResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA96C2C23187D0088F53D /* ViewResolver.swift */; };
+		244BA9782C23ACD70088F53D /* RaceListViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9772C23ACD70088F53D /* RaceListViewUITests.swift */; };
 		4AE5E08D5FD0795081A59028 /* Pods_EntainTechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA452F3EC1BA801C72A780E5 /* Pods_EntainTechTests.framework */; };
 		7284E736C4E9D50CAACCA472 /* Pods_EntainTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534D5DA7EFCBBEB63FACB154 /* Pods_EntainTech.framework */; };
 		CC3D12D58BEAEA95880F3321 /* Pods_EntainTech_EntainTechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C6AF8EA788AA546D94C04E /* Pods_EntainTech_EntainTechUITests.framework */; };
@@ -68,16 +66,14 @@
 		2443C2D92C229D6100DBFE5D /* EntainTech.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EntainTech.entitlements; sourceTree = "<group>"; };
 		2443C2DB2C229D6100DBFE5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2443C2E12C229D6200DBFE5D /* EntainTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntainTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2443C2E52C229D6200DBFE5D /* EntainTechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainTechTests.swift; sourceTree = "<group>"; };
 		2443C2EB2C229D6200DBFE5D /* EntainTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntainTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2443C2EF2C229D6200DBFE5D /* EntainTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainTechUITests.swift; sourceTree = "<group>"; };
-		2443C2F12C229D6200DBFE5D /* EntainTechUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntainTechUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2443C3C52C22A47300DBFE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2443C3C62C22A48500DBFE5D /* DataLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443C3C72C22A48500DBFE5D /* DomainLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DomainLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443C3C82C22A48500DBFE5D /* PresentationLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PresentationLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		244BA96A2C2317A20088F53D /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		244BA96C2C23187D0088F53D /* ViewResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewResolver.swift; sourceTree = "<group>"; };
+		244BA9772C23ACD70088F53D /* RaceListViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListViewUITests.swift; sourceTree = "<group>"; };
 		2F3D7629F83D691F27970D07 /* Pods-EntainTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntainTech.debug.xcconfig"; path = "Target Support Files/Pods-EntainTech/Pods-EntainTech.debug.xcconfig"; sourceTree = "<group>"; };
 		3A8F6DFE84EA004171704369 /* Pods-EntainTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EntainTech.release.xcconfig"; path = "Target Support Files/Pods-EntainTech/Pods-EntainTech.release.xcconfig"; sourceTree = "<group>"; };
 		534D5DA7EFCBBEB63FACB154 /* Pods_EntainTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EntainTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				2443C2D22C229D5F00DBFE5D /* EntainTech */,
-				2443C2E42C229D6200DBFE5D /* EntainTechTests */,
 				2443C2EE2C229D6200DBFE5D /* EntainTechUITests */,
 				2443C2D12C229D5F00DBFE5D /* Products */,
 				A43B4BBCD1F897429ACFE5DD /* Pods */,
@@ -162,21 +157,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2443C2E42C229D6200DBFE5D /* EntainTechTests */ = {
-			isa = PBXGroup;
-			children = (
-				2443C2E52C229D6200DBFE5D /* EntainTechTests.swift */,
-			);
-			path = EntainTechTests;
-			sourceTree = "<group>";
-		};
 		2443C2EE2C229D6200DBFE5D /* EntainTechUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2443C2EF2C229D6200DBFE5D /* EntainTechUITests.swift */,
-				2443C2F12C229D6200DBFE5D /* EntainTechUITestsLaunchTests.swift */,
+				244BA9762C23ACC00088F53D /* Races */,
 			);
 			path = EntainTechUITests;
+			sourceTree = "<group>";
+		};
+		244BA9762C23ACC00088F53D /* Races */ = {
+			isa = PBXGroup;
+			children = (
+				244BA9772C23ACD70088F53D /* RaceListViewUITests.swift */,
+			);
+			path = Races;
 			sourceTree = "<group>";
 		};
 		64D6A384EC382FB60A308390 /* Frameworks */ = {
@@ -454,7 +448,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2443C2E62C229D6200DBFE5D /* EntainTechTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,8 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2443C2F02C229D6200DBFE5D /* EntainTechUITests.swift in Sources */,
-				2443C2F22C229D6200DBFE5D /* EntainTechUITestsLaunchTests.swift in Sources */,
+				244BA9782C23ACD70088F53D /* RaceListViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

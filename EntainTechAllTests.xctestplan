@@ -1,0 +1,50 @@
+{
+  "configurations" : [
+    {
+      "id" : "0D1EECB2-7606-45C7-8280-D2426A53CA46",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:EntainTech.xcodeproj",
+      "identifier" : "2443C2CF2C229D5F00DBFE5D",
+      "name" : "EntainTech"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:EntainTech.xcodeproj",
+        "identifier" : "2443C2EA2C229D6200DBFE5D",
+        "name" : "EntainTechUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:DomainLayer\/DomainLayer.xcodeproj",
+        "identifier" : "2443C3352C22A3B200DBFE5D",
+        "name" : "DomainLayerTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:DataLayer\/DataLayer.xcodeproj",
+        "identifier" : "2443C3862C22A40100DBFE5D",
+        "name" : "DataLayerTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:PresentationLayer\/PresentationLayer.xcodeproj",
+        "identifier" : "2443C3AA2C22A42800DBFE5D",
+        "name" : "PresentationLayerTests"
+      }
+    }
+  ],
+  "version" : 1
+}

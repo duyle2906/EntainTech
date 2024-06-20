@@ -21,6 +21,7 @@ struct RaceCategoriesView: View {
                         Text(category.category.rawValue)
                     }
                     .toggleStyle(CheckboxToggleStyle())
+                    .accessibilityIdentifier("\(ViewIdentifiers.Races.category)_\(category.category.rawValue)")
                     .onChange(of: categories) {
                         output in
                         // automatically select all if all categories are deslected

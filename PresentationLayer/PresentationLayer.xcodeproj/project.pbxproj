@@ -21,6 +21,7 @@
 		244BA9642C2303170088F53D /* RaceCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9632C2303170088F53D /* RaceCategoriesView.swift */; };
 		244BA9662C2305D70088F53D /* CheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9652C2305D70088F53D /* CheckboxToggleStyle.swift */; };
 		244BA9752C23A7D00088F53D /* RaceListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9742C23A7D00088F53D /* RaceListViewModelTests.swift */; };
+		244BA97B2C23B0510088F53D /* ViewIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA97A2C23B0510088F53D /* ViewIdentifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		244BA9632C2303170088F53D /* RaceCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCategoriesView.swift; sourceTree = "<group>"; };
 		244BA9652C2305D70088F53D /* CheckboxToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxToggleStyle.swift; sourceTree = "<group>"; };
 		244BA9742C23A7D00088F53D /* RaceListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListViewModelTests.swift; sourceTree = "<group>"; };
+		244BA97A2C23B0510088F53D /* ViewIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewIdentifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		2443C3A32C22A42800DBFE5D /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				244BA9792C23B03B0088F53D /* ViewIndentifiers */,
 				244BA9672C2306010088F53D /* CustomViews */,
 				244BA95D2C22F74A0088F53D /* ViewResolver */,
 				244BA95A2C22E9A30088F53D /* Extensions */,
@@ -198,6 +201,14 @@
 				244BA9742C23A7D00088F53D /* RaceListViewModelTests.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		244BA9792C23B03B0088F53D /* ViewIndentifiers */ = {
+			isa = PBXGroup;
+			children = (
+				244BA97A2C23B0510088F53D /* ViewIdentifiers.swift */,
+			);
+			path = ViewIndentifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +331,7 @@
 				244BA9642C2303170088F53D /* RaceCategoriesView.swift in Sources */,
 				244BA9532C22E4CE0088F53D /* RaceCellVew.swift in Sources */,
 				244BA95C2C22EA3C0088F53D /* Int+Extensions.swift in Sources */,
+				244BA97B2C23B0510088F53D /* ViewIdentifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

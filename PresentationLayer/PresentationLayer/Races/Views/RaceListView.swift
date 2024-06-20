@@ -42,6 +42,8 @@ public struct RaceListView: View {
                                     bottom: 0,
                                     trailing: 0)
                                 )
+                                .accessibilityElement(children: .contain)
+                                .accessibilityIdentifier("\(ViewIdentifiers.Races.section)_\(category.category.rawValue)")
                             ) {
                                 ForEach(viewModel.displayedRaces.filter({ $0.category == category.category })) {
                                     race in
@@ -55,6 +57,7 @@ public struct RaceListView: View {
                 }
                 .listStyle(.plain)
                 .padding(.top, -10)
+                .accessibilityIdentifier(ViewIdentifiers.Races.list)
                 .onAppear {
                     Task {
                         await viewModel.getNextRaces()
