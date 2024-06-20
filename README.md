@@ -57,7 +57,7 @@ The project is using Clean Architecture + MVVM with separated frameworks setup f
 
 # Demo
 
-https://github.com/duyle2906/EntainTech/assets/1464336/6e98090d-8e78-47ce-8415-d2fdcf2dedd3
+https://github.com/duyle2906/EntainTech/assets/1464336/22472787-dc13-471d-87ac-afbbc75f8feb
 
 # Development Setup
 > __This project is written in Swift 5 and Xcode 15.4 is required for development.__
@@ -71,7 +71,9 @@ Before you begin, you should already have the Xcode downloaded and set up correc
 - Next, run `pod setup` for setting up cocoapods master repo. You may include `--verbose` for more descriptive logs.
 **NOTE:** This might take a while to setup depending on your network speed.
 
-- Finally, go to the root folder of the project where the Podfile is located and run `pod install` to retrieve the pods for the project
+- Next, go to the root folder of the project where the Podfile is located and run `pod install` to retrieve the pods for the project.
+
+- Open the project using the file `EntainTech.xcworkspace`
 
 # Test Results
 
@@ -84,6 +86,7 @@ Over 90% code coverage was achieved, as demonstrated in the following figure fro
 Here are a few suggested improvements for the project:<br><br>
 
 - Different configurations will be needed for different environments, including Development, Staging, and Production.<br><br>
+- Setup pipelines for CI/CD, ideally a pipeline for PR and a pipeline for each environment.<br><br>
 - Store the base URL and any potential secrets in .xcconfig files for each environment. These values should be added to Info.plist and loaded accordingly in the project. These implementations would ideally be located in the Data Layer. It is also important to add the .xcconfig files for the production environment to .gitignore.<br><br>
 - Improve the logic for converting seconds to a time string so that it can display the time in hours and days if necessary. Currently, the app only converts seconds to minutes and seconds for the countdown logic.<br><br>
 - Apply the coordinator pattern as the navigation logic of the project becomes more complex.<br><br>
@@ -91,13 +94,3 @@ Here are a few suggested improvements for the project:<br><br>
 - Remove the hardcoded race category ID by having the backend return the value of the RaceCategory enum instead of the category ID.<br><br>
 - Handle UI states better by revamping the loading and error states.<br><br>
 - Consider localization early in the project.<br><br>
-
-
-
-
-
-
-
-
-
-
