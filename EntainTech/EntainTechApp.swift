@@ -14,6 +14,7 @@ struct EntainTechApp: App {
         return WindowGroup {
             viewResolver.getRaceListView()
                 .environment(\.viewResolver, viewResolver)
+                .environment(\.sizeCategory, .medium)
         }
     }
 }
