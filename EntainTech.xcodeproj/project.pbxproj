@@ -19,19 +19,11 @@
 		244BA96B2C2317A20088F53D /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA96A2C2317A20088F53D /* DIContainer.swift */; };
 		244BA96D2C23187D0088F53D /* ViewResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA96C2C23187D0088F53D /* ViewResolver.swift */; };
 		244BA9782C23ACD70088F53D /* RaceListViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244BA9772C23ACD70088F53D /* RaceListViewUITests.swift */; };
-		4AE5E08D5FD0795081A59028 /* Pods_EntainTechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA452F3EC1BA801C72A780E5 /* Pods_EntainTechTests.framework */; };
 		7284E736C4E9D50CAACCA472 /* Pods_EntainTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534D5DA7EFCBBEB63FACB154 /* Pods_EntainTech.framework */; };
 		CC3D12D58BEAEA95880F3321 /* Pods_EntainTech_EntainTechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C6AF8EA788AA546D94C04E /* Pods_EntainTech_EntainTechUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2443C2E22C229D6200DBFE5D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2443C2C82C229D5F00DBFE5D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2443C2CF2C229D5F00DBFE5D;
-			remoteInfo = EntainTech;
-		};
 		2443C2EC2C229D6200DBFE5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2443C2C82C229D5F00DBFE5D /* Project object */;
@@ -65,7 +57,6 @@
 		2443C2D72C229D6100DBFE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2443C2D92C229D6100DBFE5D /* EntainTech.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EntainTech.entitlements; sourceTree = "<group>"; };
 		2443C2DB2C229D6100DBFE5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2443C2E12C229D6200DBFE5D /* EntainTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntainTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443C2EB2C229D6200DBFE5D /* EntainTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntainTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2443C3C52C22A47300DBFE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2443C3C62C22A48500DBFE5D /* DataLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DataLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,14 +86,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2443C2DE2C229D6200DBFE5D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4AE5E08D5FD0795081A59028 /* Pods_EntainTechTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2443C2E82C229D6200DBFE5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				2443C2D02C229D5F00DBFE5D /* EntainTech.app */,
-				2443C2E12C229D6200DBFE5D /* EntainTechTests.xctest */,
 				2443C2EB2C229D6200DBFE5D /* EntainTechUITests.xctest */,
 			);
 			name = Products;
@@ -222,25 +204,6 @@
 			productReference = 2443C2D02C229D5F00DBFE5D /* EntainTech.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2443C2E02C229D6200DBFE5D /* EntainTechTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2443C2F82C229D6200DBFE5D /* Build configuration list for PBXNativeTarget "EntainTechTests" */;
-			buildPhases = (
-				8676C86B1A3CAAD9E8691C08 /* [CP] Check Pods Manifest.lock */,
-				2443C2DD2C229D6200DBFE5D /* Sources */,
-				2443C2DE2C229D6200DBFE5D /* Frameworks */,
-				2443C2DF2C229D6200DBFE5D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2443C2E32C229D6200DBFE5D /* PBXTargetDependency */,
-			);
-			name = EntainTechTests;
-			productName = EntainTechTests;
-			productReference = 2443C2E12C229D6200DBFE5D /* EntainTechTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		2443C2EA2C229D6200DBFE5D /* EntainTechUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2443C2FB2C229D6200DBFE5D /* Build configuration list for PBXNativeTarget "EntainTechUITests" */;
@@ -274,10 +237,6 @@
 					2443C2CF2C229D5F00DBFE5D = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					2443C2E02C229D6200DBFE5D = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 2443C2CF2C229D5F00DBFE5D;
-					};
 					2443C2EA2C229D6200DBFE5D = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 2443C2CF2C229D5F00DBFE5D;
@@ -298,7 +257,6 @@
 			projectRoot = "";
 			targets = (
 				2443C2CF2C229D5F00DBFE5D /* EntainTech */,
-				2443C2E02C229D6200DBFE5D /* EntainTechTests */,
 				2443C2EA2C229D6200DBFE5D /* EntainTechUITests */,
 			);
 		};
@@ -311,13 +269,6 @@
 			files = (
 				2443C2DC2C229D6100DBFE5D /* Preview Assets.xcassets in Resources */,
 				2443C2D82C229D6100DBFE5D /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2443C2DF2C229D6200DBFE5D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,28 +343,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EntainTech-EntainTechUITests/Pods-EntainTech-EntainTechUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8676C86B1A3CAAD9E8691C08 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EntainTechTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BF5A175B7A034B1CEE627649 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,13 +373,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2443C2DD2C229D6200DBFE5D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2443C2E72C229D6200DBFE5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,11 +384,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2443C2E32C229D6200DBFE5D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2443C2CF2C229D5F00DBFE5D /* EntainTech */;
-			targetProxy = 2443C2E22C229D6200DBFE5D /* PBXContainerItemProxy */;
-		};
 		2443C2ED2C229D6200DBFE5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2443C2CF2C229D5F00DBFE5D /* EntainTech */;
@@ -665,52 +582,6 @@
 			};
 			name = Release;
 		};
-		2443C2F92C229D6200DBFE5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8EF1EF40AA408988E36DFEE /* Pods-EntainTechTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.duyle2906.EntainTechTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EntainTech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EntainTech";
-			};
-			name = Debug;
-		};
-		2443C2FA2C229D6200DBFE5D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17CC01CCDCB26A384E7CCBA3 /* Pods-EntainTechTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.duyle2906.EntainTechTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EntainTech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EntainTech";
-			};
-			name = Release;
-		};
 		2443C2FC2C229D6200DBFE5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 00F88AE5BE5732E5EF853009 /* Pods-EntainTech-EntainTechUITests.debug.xcconfig */;
@@ -772,15 +643,6 @@
 			buildConfigurations = (
 				2443C2F62C229D6200DBFE5D /* Debug */,
 				2443C2F72C229D6200DBFE5D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2443C2F82C229D6200DBFE5D /* Build configuration list for PBXNativeTarget "EntainTechTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2443C2F92C229D6200DBFE5D /* Debug */,
-				2443C2FA2C229D6200DBFE5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
