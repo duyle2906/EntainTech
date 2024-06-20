@@ -4,7 +4,7 @@
 2. [Requirements](#requirements)
 3. [Technical Requirements](#technical-requirements)
 4. [Api](#api)
-5. [Arhitecture](#arhitecture)
+5. [Architecture](#architecture)
 6. [Demo](#demo)
 7. [Development Setup](#development-setup)
 8. [Test Results](#test-results)
