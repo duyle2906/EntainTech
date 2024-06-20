@@ -11,7 +11,13 @@ import Combine
 
 public class RaceListViewModel: ObservableObject {
     
+    // MARK: UI State
+    enum UIState: Equatable {
+        case loading, loaded, error(_ message: String)
+    }
+    
     // MARK: Published properties
+    @Published private(set) var uiState: UIState!
     @Published var selectedCategories: [DisplayedRaceCategory] = [
         DisplayedRaceCategory(category: .greyhound, isSelected: true),
         DisplayedRaceCategory(category: .harness, isSelected: true),
@@ -24,6 +30,7 @@ public class RaceListViewModel: ObservableObject {
     
     public init(interactor: RaceInteractorProtocol) {
         self.interactor = interactor
+        self.uiState = .loading
     }
 
     // MARK: Functions
@@ -35,7 +42,10 @@ public class RaceListViewModel: ObservableObject {
         switch result {
         case let .success(races):
             displayedRaces = races
-        case .failure:
+            uiState = .loaded
+        case let .failure(error):
+            // TODO: handle error
+            uiState = .error(error.message)
             break
         }
     }
@@ -47,6 +57,5 @@ public class RaceListViewModel: ObservableObject {
             return Int(race.startTimeInSeconds) - Int(currentTime.timeIntervalSince1970) > -60
         }
     }
-    
     
 }
