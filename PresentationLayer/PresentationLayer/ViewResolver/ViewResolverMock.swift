@@ -9,8 +9,8 @@ import DomainLayer
 import Foundation
 
 // This class will provide mocks to use in previews
-class ViewResolverMock: ViewResolverProtocol {
-    func getRaceListView() -> RaceListView {
+public class ViewResolverMock: ViewResolverProtocol {
+    public func getRaceListView() -> RaceListView {
         let viewModel = RaceListViewModel(interactor: RaceInteractorMock())
         return RaceListView(viewModel: viewModel)
     }
@@ -18,7 +18,7 @@ class ViewResolverMock: ViewResolverProtocol {
 
 // MARK: Mocks for interactors
 extension ViewResolverMock {
-    class RaceInteractorMock: RaceInteractorProtocol {
+    public class RaceInteractorMock: RaceInteractorProtocol {
         var getNextRacesResult: Result<[Race], ApiError>! = .success([
             Race(id: "00ef27df-93b2-4fd7-ae45-80bdcafe71bf", category: .greyhound, meetingName: "The Meadows", raceNumber: 1, startTimeInSeconds: TimeInterval(Date.now.timeIntervalSince1970 - 30)),
             Race(id: "53619a74-192e-439d-ab05-5cc3af0f6540", category: .greyhound, meetingName: "Temora", raceNumber: 11, startTimeInSeconds: TimeInterval(Date.now.timeIntervalSince1970 - 15)),
@@ -34,7 +34,9 @@ extension ViewResolverMock {
             race1.startTimeInSeconds < race2.startTimeInSeconds
         })
         
-        func getNextRaces(count: Int) async -> Result<[Race], ApiError> {
+        public init() {}
+        
+        public func getNextRaces(count: Int) async -> Result<[Race], ApiError> {
             return getNextRacesResult
         }
     }

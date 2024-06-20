@@ -15,6 +15,7 @@ extension Container {
     
     static let sharedContainer: Container = {
         let container = Container()
+        let uiTesting = ProcessInfo.processInfo.arguments.contains("Testing")
         
         container.register(ApiServiceProtocol.self) { _ in
             ApiService()
@@ -33,7 +34,11 @@ extension Container {
         }
         
         container.register(RaceListViewModel.self) { _ in
-            RaceListViewModel(interactor: container.resolve(RaceInteractorProtocol.self)!)
+            var viewModel = container.resolve(RaceInteractorProtocol.self)!
+            if uiTesting {
+                viewModel = ViewResolverMock.RaceInteractorMock()
+            }
+            return RaceListViewModel(interactor: viewModel)
         }
         
         return container
